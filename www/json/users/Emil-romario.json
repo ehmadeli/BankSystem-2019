@@ -1,0 +1,34 @@
+{
+  "data": {
+    "username": "Emil",
+    "myFile": "users/Emil-romario",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 6000,
+        "history": [
+          {
+            "label": "tinder",
+            "amount": 3000,
+            "time": "2019-03-14 14:16"
+          },
+          {
+            "label": "tinder",
+            "amount": 3000,
+            "time": "2019-03-14 14:16"
+          }
+        ],
+        "accountNumber": "1215-004618",
+        "⚙": "Account"
+      },
+      {
+        "name": "sparkonto 2",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "4300-369343",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
