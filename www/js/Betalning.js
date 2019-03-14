@@ -27,8 +27,10 @@ class Betalning {
     f.sum = isNaN(f.sum / 1) ? 0 : f.sum / 1;
     // Get the correct account
     let account = App.user.accounts.filter(account => account.accountNumber === f.accountNumber)[0];
+    let accountTo = App.user.accounts.filter(account => account.accountNumber === f.accountNumberTo)[0];
     // Deposit or withdraw
-    account[f.depositOrWithdraw](f.label, f.sum);
+    account.withdraw(f.label, f.sum);
+    accountTo.deposit(f.label, f.sum);
     // Save the user data
     App.user.save();
     // Goto the my-accounts page
