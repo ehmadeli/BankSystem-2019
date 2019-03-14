@@ -21,3 +21,27 @@ h3, h4, h5 {
 table {
   border-bottom: 1px solid #ddd;
 }
+.bg-warning {
+  background: #fc0;
+  background: linear-gradient(90deg,#ff6100 0,#fc0);
+  height: 8px;
+  
+    }
+  .logo{
+    width: 100px;
+    height: 30px;
+    
+  }
+  
+  .sidenav {
+    
+    background-color: #FBF2EA;
+    margin-top: 1em;
+    height: 50em;
+  
+  }
+
+  .green{
+    width: 125%;
+    height: 10em;
+  }

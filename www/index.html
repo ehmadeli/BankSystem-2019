@@ -11,13 +11,17 @@
 </head>
 
 <body>
-  <header class="p-3 bg-primary text-light">
-    <h2 class="d-inline-block">Registrera & logga in m.m.</h2>
+  <header class="fixed-top ">
+      <div class="bg-warning"></div>
+      <div class="p-3 bg-white">
+    <div class="col-sm-1 pull-right text-center"><img src="swedbank.png" alt="logo" class="logo"></div>
     <small class="float-right only-if-logged-in">Inloggad som <span class="username"></span></small>
+    </div>
   </header>
-  <main class="container-fluid mt-4">
+
+  <main class="container-fluid mt-5 ml-3">
     <div class="row">
-      <aside class="col-4 col-sm-3">
+          <aside class="col-4 col-sm-2 sidenav">
         <nav>
           <ul class="nav flex-column">
             <li class="nav-item">
@@ -41,10 +45,10 @@
           </ul>
         </nav>
       </aside>
-      <article class="col-7 col-sm-8"></article>
+      <article class="col-7 col-sm-8 mt-4"></article>
     </div>
   </main>
-  <footer class="text-center bg-primary text-light p-2 mt-4">© 2019 NodeHill</footer>
+  <footer class="mt-4"><div class="bg-warning"></div></footer>
   <!-- Libraries -->
   <script src="/jsonflex.js"></script>
   <script src="/js/libs/jquery.js"></script>

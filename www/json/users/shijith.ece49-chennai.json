@@ -1,0 +1,23 @@
+{
+  "data": {
+    "username": "shijith.ece49",
+    "myFile": "users/shijith.ece49-chennai",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "7201-704013",
+        "⚙": "Account"
+      },
+      {
+        "name": "savings",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "3413-846898",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
