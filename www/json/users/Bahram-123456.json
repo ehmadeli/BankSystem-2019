@@ -1,0 +1,34 @@
+{
+  "data": {
+    "username": "Bahram",
+    "myFile": "users/Bahram-123456",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 1150,
+        "history": [
+          {
+            "label": "",
+            "amount": 150,
+            "time": "2019-03-14 14:57"
+          },
+          {
+            "label": "",
+            "amount": 1000,
+            "time": "2019-03-14 14:57"
+          }
+        ],
+        "accountNumber": "6140-211182",
+        "⚙": "Account"
+      },
+      {
+        "name": "Sparkonto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "5758-145647",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
