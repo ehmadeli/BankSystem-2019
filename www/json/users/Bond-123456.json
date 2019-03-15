@@ -1,0 +1,73 @@
+{
+  "data": {
+    "username": "Bond",
+    "myFile": "users/Bond-123456",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 9110,
+        "history": [
+          {
+            "label": "",
+            "amount": -350,
+            "time": "2019-03-15 11:36"
+          },
+          {
+            "label": "",
+            "amount": 460,
+            "time": "2019-03-15 11:36"
+          },
+          {
+            "label": "",
+            "amount": -900,
+            "time": "2019-03-15 11:36"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "2019-03-15 11:26"
+          },
+          {
+            "label": "",
+            "amount": 10000,
+            "time": "2019-03-15 11:25"
+          }
+        ],
+        "accountNumber": "6380-691127",
+        "⚙": "Account"
+      },
+      {
+        "name": "Sparkonto",
+        "balance": 30100,
+        "history": [
+          {
+            "label": "",
+            "amount": 100,
+            "time": "2019-03-15 11:26"
+          },
+          {
+            "label": "",
+            "amount": 30000,
+            "time": "2019-03-15 11:26"
+          }
+        ],
+        "accountNumber": "3447-481368",
+        "⚙": "Account"
+      },
+      {
+        "name": "CreditCard",
+        "balance": 50000,
+        "history": [
+          {
+            "label": "",
+            "amount": 50000,
+            "time": "2019-03-15 11:26"
+          }
+        ],
+        "accountNumber": "7448-264775",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
