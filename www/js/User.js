@@ -14,6 +14,14 @@ class User {
     return newAccount;
   }
 
+  delAccount(name){
+    for(let x of this.accounts){
+      if(x.name == name){
+          this.accounts.splice(x, 1);
+      }
+    }
+  }
+
   async save(){
     // Wrapping the user in {data: user}
     // because of a bug in JSON._save

@@ -6,6 +6,7 @@
         <th scope="col">Kontonamn</th>
         <th scope="col">Kontonummer</th>
         <th scope="col" class="text-right">Saldo</th>
+        <th scope="col" class="text-right">Tar bort konto</th>
       </tr>
     </thead>
     <tbody>
@@ -45,6 +46,12 @@
   </div>
 </div>
 
-<p class="mt-3"><b>Tips:</b></p>
-<p>Nästa steg vore att göra kontona klickbara, så att man kan se kontoutdrag/historik.</p>
-<p>En annan sak som saknas är att kunna ta bort konton...</p>
+<br></br>
+<h3>Historik</h3>
+<form class="history-form">
+  <div class="form-group">
+    <label for="accountNumber"><small>Konto</small></label>
+    <select class="form-control" id="accountNumber"></select>
+  </div>
+  <button type="submit" class="his-account-btn btn btn-primary float-right mt-3">Visa</button>
+</form>
