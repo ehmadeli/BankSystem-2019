@@ -1,0 +1,23 @@
+{
+  "data": {
+    "username": "priya panth",
+    "myFile": "users/priya",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 100,
+        "history": [],
+        "accountNumber": "012336-704016",
+        "⚙": "Account"
+      },
+      {
+        "name": "savings",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "012336-704016",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
