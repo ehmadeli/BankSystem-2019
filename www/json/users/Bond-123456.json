@@ -5,8 +5,14 @@
     "accounts": [
       {
         "name": "Test1",
-        "balance": 0,
-        "history": [],
+        "balance": 10000,
+        "history": [
+          {
+            "label": "deposit: ",
+            "amount": 10000,
+            "time": "2019-03-20 11:37"
+          }
+        ],
         "accountNumber": "8161-401182",
         "⚙": "Account"
       },
@@ -25,9 +31,28 @@
       },
       {
         "name": "Test7",
-        "balance": 0,
-        "history": [],
+        "balance": 2000,
+        "history": [
+          {
+            "label": "deposit: En gåva",
+            "amount": 2000,
+            "time": "2019-03-20 11:38"
+          }
+        ],
         "accountNumber": "6369-395896",
+        "⚙": "Account"
+      },
+      {
+        "name": "SparKonto",
+        "balance": 20000,
+        "history": [
+          {
+            "label": "deposit: min pension",
+            "amount": 20000,
+            "time": "2019-03-20 11:40"
+          }
+        ],
+        "accountNumber": "2567-468067",
         "⚙": "Account"
       }
     ],
