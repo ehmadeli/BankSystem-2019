@@ -50,9 +50,11 @@ class MyAccounts {
   delAccount(e){
     if (!App.user) { return; }
     let index = $(e.currentTarget).attr('id');
-    let account = App.user.accounts[index];    
+    //console.log("** " + index);
+    let account = App.user.accounts[index]; 
+    //console.log(account);   
     // Del the account
-    App.user.delAccount(account.accountNumber);
+    App.user.delAccount(account.name);
     // Save the user data
     App.user.save();
     // Update the display

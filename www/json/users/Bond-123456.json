@@ -5,8 +5,13 @@
     "accounts": [
       {
         "name": "SparKonto",
-        "balance": 30000,
+        "balance": 29900,
         "history": [
+          {
+            "label": " to: 4317-545033",
+            "amount": -100,
+            "time": "2019-03-20 09:24"
+          },
           {
             "label": "deposit: ",
             "amount": 30000,
@@ -14,6 +19,33 @@
           }
         ],
         "accountNumber": "1465-727413",
+        "⚙": "Account"
+      },
+      {
+        "name": "Test1",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "8161-401182",
+        "⚙": "Account"
+      },
+      {
+        "name": "test4",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "932-349676",
+        "⚙": "Account"
+      },
+      {
+        "name": "CreditCard",
+        "balance": 50000,
+        "history": [
+          {
+            "label": "deposit: ",
+            "amount": 50000,
+            "time": "2019-03-20 09:24"
+          }
+        ],
+        "accountNumber": "7995-431431",
         "⚙": "Account"
       }
     ],
