@@ -73,15 +73,6 @@ class MyAccounts {
     this.updateDisplay();
   }
 
- /*delAccount(){
-   if (!App.user) { return; }
-   // Del the account
-   App.user.delAccount(account.name);
-   // Save the user data
-   App.user.save();
-   // Update the display
-   this.updateDisplay();
- }*/
 
  emptyNewAccountNameField(){
    // empty the field when the modal closes
