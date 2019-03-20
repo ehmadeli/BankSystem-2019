@@ -3,6 +3,7 @@ class Account {
   constructor(name){
     this.name = name;
     this.balance = 0;
+    this.credit = false;
     this.history = [];
     this.accountNumber = this.createAccountNumber()
   }
@@ -18,7 +19,11 @@ class Account {
   }
 
   withdraw(label, amount){
-    this.deposit(label, -amount);
+    if(this.balance >= amount){
+      this.deposit(label, -amount);
+    } else {
+      console.log("Balance is negative. Transaction is not available !")
+    }
   }
 
   formatTime(){

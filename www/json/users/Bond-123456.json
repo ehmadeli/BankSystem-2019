@@ -5,8 +5,19 @@
     "accounts": [
       {
         "name": "Test1",
-        "balance": 9300,
+        "balance": 300,
+        "credit": false,
         "history": [
+          {
+            "label": "deposit: ",
+            "amount": 1000,
+            "time": "2019-03-20 18:48"
+          },
+          {
+            "label": "withdraw: ",
+            "amount": -10000,
+            "time": "2019-03-20 18:46"
+          },
           {
             "label": " to: 1562-442573",
             "amount": -1000,
@@ -68,8 +79,19 @@
       },
       {
         "name": "SparKonto",
-        "balance": 18700,
+        "balance": 19405,
+        "credit": false,
         "history": [
+          {
+            "label": " from: 8161-401182",
+            "amount": 305,
+            "time": "2019-03-20 18:49"
+          },
+          {
+            "label": " from: 8161-401182",
+            "amount": 400,
+            "time": "2019-03-20 18:49"
+          },
           {
             "label": " to: 8161-401182",
             "amount": -1000,
@@ -102,6 +124,7 @@
       {
         "name": "CreditCard",
         "balance": 51000,
+        "credit": false,
         "history": [
           {
             "label": " from: 8161-401182",
@@ -120,6 +143,7 @@
       {
         "name": "InvestKonto",
         "balance": 1000000,
+        "credit": false,
         "history": [
           {
             "label": " from: 8161-401182",
@@ -143,6 +167,14 @@
           }
         ],
         "accountNumber": "1562-442573",
+        "⚙": "Account"
+      },
+      {
+        "name": "Test5",
+        "balance": 0,
+        "credit": false,
+        "history": [],
+        "accountNumber": "2822-800212",
         "⚙": "Account"
       }
     ],

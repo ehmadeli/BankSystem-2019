@@ -53,6 +53,7 @@ class MyAccounts {
   // Add the account
   let name = $('#newAccountName').val();
   App.user.addAccount(name);
+  //App.user.
   // Save the user data
   App.user.save();
   // Update the display
