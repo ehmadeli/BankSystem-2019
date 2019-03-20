@@ -22,8 +22,7 @@ class User {
         break;
       }
     }
-
-    //console.log("Users: " + account);
+    
     //console.log("indexUsers: " + index);
     //this.accounts.splice(index, 1);
   }
