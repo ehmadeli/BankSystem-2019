@@ -1,45 +1,40 @@
 class History {
 
   constructor() {
-    this.form = '.history-form';
-    $(document).on('submit', this.form, e => this.onsubmit(e));
+    // event handlers
   }
 
   updateDisplay() {
-    if (!App.user) { return; }
-    //let html = Object.name;
-    // loop through the logged in users accounts and create html
-
-    //App.user.load();
-    //let person = await JSON._load(App.user);
-    //console.log(person);
-
-    //$("#accountName").html("<b>${account.accountNumber}</b>");
-
-    console.log(Object);
-    for (let x in Object.history) {
-      html += x.amount + '  ' + x.label;
+    // Fix timing issue on hard login
+    if(!App.user){
+      setTimeout(() => this.updateDisplay(), 100);
+      return;
     }
-    // put the html in the DOM
-    $(this.form).html(html);
-    
-    
+    // Get the account number from the url
+    let no = location.hash.split('?')[1];
+    // Look up the account
+    let account;
+    for (let anAccount of App.user.accounts) {
+      if (anAccount.accountNumber === no) {
+        account = anAccount;
+      }
+    }
+
+    console.log(account, no)
+    // Start generating dynamic html
+    $('.history-headline').text(account.name + ' ' + account.accountNumber);
+
+    let html = '';
+    for(let transaction of account.history){
+      html += `
+        <tr>
+          <td>${transaction.label}</td>
+          <td>${transaction.time}</td>
+          <td>${transaction.amount}</td>
+        </tr>
+      `
+    }
+    $('.history tbody').html(html);
   }
 
-  onsubmit(e) {
-    // Don't send the form
-    
-    // Goto the my-accounts page
-    location.hash = "#my-accounts";
-  }
-
-  collectFormdata() {
-    let formdata = {};
-    $(this.form).find('input, select').each(function () {
-      formdata[this.id] = $(this).val();
-    });
-    this.formdata = formdata;
-  }
-
- 
 }

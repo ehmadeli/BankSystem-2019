@@ -13,6 +13,11 @@ class SpaHandler {
     // if the hash is empty then set it to "start"
     // if it leads to a page the user is not allowed to see do the same
     if (hash === '' || !this.allowed(hash)) { hash = 'start'; }
+    
+    // Don't use the characsters after ?-sign 
+    // when we decide what file to load
+    hash = hash.split('?')[0];
+
     // set active on the nav link corresponding to the hash
     $('.nav-link').removeClass('active');
     $('.nav-link[href="#' + hash + '"]').addClass('active');
@@ -56,7 +61,7 @@ class SpaHandler {
       App.betalningPgBg.updateDisplay();
     }
     if(hash === 'history'){
-      App.betalningPgBg.updateDisplay();
+      App.history.updateDisplay();
     }
   }
 

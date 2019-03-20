@@ -9,15 +9,13 @@ class MyAccounts {
  }
 
  showHistory(){
-   let no = $('#accountNumber').val();
-   let chosenAccount;
-   for(let account of App.user.accounts){
-     if(account.accountNumber === no){
-       chosenAccount = account;
-     }
-   }
-   console.log(chosenAccount);
-   location.hash = 'history' // navigera till ny "sida"
+   let accountNumber = $('#accountNumber').val();
+   // For some reason we need to wait
+   // before navigating to page with location.hash
+   // (strange...)
+   setTimeout(() => {
+     location.hash = 'history?' + accountNumber;
+   }, 1);
  }
 
  updateDisplay() {
