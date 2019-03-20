@@ -22,16 +22,19 @@ class MyAccounts {
    if (!App.user) { return; }
    let html = '';
    let html2 = '';
+   let xx = 0;
    // loop through the logged in users accounts and create html
    for (let account of App.user.accounts) {
      html += `<tr>
        <th scope="row">${account.name}</th>
-       <td>${account.accountNumber}</td>
+       <td >${account.accountNumber}</td>
        <td class="text-right">${this.toSwedishFormat(account.balance)}</td>
-       <td class="text-right"><button type="submit" class="del-account-btn btn btn-primary">Tar bort</button></td>
+       <td class="text-right"><button type="submit" id=${xx} class="del-account-btn btn btn-primary">Tar bort</button></td>
      </tr>`;
      html2 += `<option value="${account.accountNumber}">${account.name} - ${account.accountNumber}</option>`;
+     xx++;
    }
+
    // put the html in the DOM
    $('.accounts tbody').html(html);
    $(this.form).find('#accountNumber').html(html2);
@@ -70,7 +73,7 @@ class MyAccounts {
     this.updateDisplay();
   }
 
- delAccount(){
+ /*delAccount(){
    if (!App.user) { return; }
    // Del the account
    App.user.delAccount(account.name);
@@ -78,7 +81,7 @@ class MyAccounts {
    App.user.save();
    // Update the display
    this.updateDisplay();
- }
+ }*/
 
  emptyNewAccountNameField(){
    // empty the field when the modal closes

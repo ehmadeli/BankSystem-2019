@@ -30,19 +30,6 @@
         "⚙": "Account"
       },
       {
-        "name": "Test7",
-        "balance": 2000,
-        "history": [
-          {
-            "label": "deposit: En gåva",
-            "amount": 2000,
-            "time": "2019-03-20 11:38"
-          }
-        ],
-        "accountNumber": "6369-395896",
-        "⚙": "Account"
-      },
-      {
         "name": "SparKonto",
         "balance": 20000,
         "history": [
@@ -53,6 +40,19 @@
           }
         ],
         "accountNumber": "2567-468067",
+        "⚙": "Account"
+      },
+      {
+        "name": "CreditCard",
+        "balance": 50000,
+        "history": [
+          {
+            "label": "deposit: Credit",
+            "amount": 50000,
+            "time": "2019-03-20 11:47"
+          }
+        ],
+        "accountNumber": "9458-815255",
         "⚙": "Account"
       }
     ],

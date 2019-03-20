@@ -15,6 +15,7 @@ class User {
   }
 
   delAccount(account){
+    console.log(account);
     //let index = this.accounts.indexOf(account);
     for(let x=0; x<this.accounts.length; x++ ){
       if(this.accounts[x].name == account){
