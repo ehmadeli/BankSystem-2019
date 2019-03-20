@@ -47,18 +47,6 @@ class MyAccounts {
    }).format(num);
  }
 
-<<<<<<< HEAD
- addAccount(){
-   if (!App.user) { return; }
-   // Add the account
-   let name = $('#newAccountName').val();
-   App.user.addAccount(name);
-   // Save the user data
-   App.user.save();
-   // Update the display
-   this.updateDisplay();
- }
-=======
   delAccount(e){
     if (!App.user) { return; }
     let index = $(e.currentTarget).attr('id');
@@ -72,7 +60,6 @@ class MyAccounts {
     // Update the display
     this.updateDisplay();
   }
->>>>>>> master
 
  delAccount(){
    if (!App.user) { return; }
