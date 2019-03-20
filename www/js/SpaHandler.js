@@ -29,6 +29,7 @@ class SpaHandler {
     $('article').html(content);
     // run updates...
     this.runUpdates(hash);
+    windows.scrollTo(0.0);
   }
 
 
