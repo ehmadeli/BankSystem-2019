@@ -55,6 +55,9 @@ class SpaHandler {
     if(hash === 'betalning-pgbg'){
       App.betalningPgBg.updateDisplay();
     }
+    if(hash === 'history'){
+      App.betalningPgBg.updateDisplay();
+    }
   }
 
 }

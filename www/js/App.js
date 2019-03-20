@@ -12,6 +12,7 @@ class App {
     App.betalning = new Betalning();
     App.betalningPgBg = new BetalningPgBg();
     App.login = new Login();
+    App.history = new History();
 
     // Instances that we don't need to reach/communicate with
     new RegisterUser();

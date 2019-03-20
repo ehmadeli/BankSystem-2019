@@ -11,15 +11,17 @@ class MyAccounts {
     if (!App.user) { return; }
     let html = '';
     let html2 = '';
+    let xx = 0;
     // loop through the logged in users accounts and create html
     for (let account of App.user.accounts) {
       html += `<tr>
         <th scope="row">${account.name}</th>
-        <td>${account.accountNumber}</td>
+        <td >${account.accountNumber}</td>
         <td class="text-right">${this.toSwedishFormat(account.balance)}</td>
-        <td class="text-right"><button type="submit" class="del-account-btn btn btn-primary">Tar bort</button></td>
+        <td class="text-right"><button type="submit" id=${xx} class="del-account-btn btn btn-primary">Tar bort</button></td>
       </tr>`;
       html2 += `<option value="${account.accountNumber}">${account.name} - ${account.accountNumber}</option>`;
+      xx++;
     }
     // put the html in the DOM
     $('.accounts tbody').html(html);
@@ -45,10 +47,12 @@ class MyAccounts {
     this.updateDisplay();
   }
 
-  delAccount(){
+  delAccount(e){
     if (!App.user) { return; }
+    let index = $(e.currentTarget).attr('id');
+    let account = App.user.accounts[index];    
     // Del the account
-    App.user.delAccount(account.name);
+    App.user.delAccount(account.accountNumber);
     // Save the user data
     App.user.save();
     // Update the display
@@ -66,12 +70,18 @@ class MyAccounts {
     // Collect the form data
     this.collectFormdata();
     let f = this.formdata;
-    // convert the sum to a number - if not possible set it to 0
-    f.sum = isNaN(f.sum / 1) ? 0 : f.sum / 1;
     // Get the correct account
     let account = App.user.accounts.filter(account => account.accountNumber === f.accountNumber)[0];
     // Goto the my-accounts page
-    location.hash = "#my-accounts";
+    
+    location.hash = "#history";
   }
 
+  collectFormdata() {
+    let formdata = {};
+    $(this.form).find('select', 'button').each(function () {
+      formdata[this.id] = $(this).val();
+    });
+    this.formdata = formdata;
+  }
 }
