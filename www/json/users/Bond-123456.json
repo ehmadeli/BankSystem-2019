@@ -4,16 +4,30 @@
     "myFile": "users/Bond-123456",
     "accounts": [
       {
-        "name": "SparKonto",
-        "balance": 30000,
+        "name": "Test1",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "8161-401182",
+        "⚙": "Account"
+      },
+      {
+        "name": "CreditCard",
+        "balance": 50000,
         "history": [
           {
             "label": "deposit: ",
-            "amount": 30000,
-            "time": "2019-03-20 09:00"
+            "amount": 50000,
+            "time": "2019-03-20 09:24"
           }
         ],
-        "accountNumber": "1465-727413",
+        "accountNumber": "7995-431431",
+        "⚙": "Account"
+      },
+      {
+        "name": "Test7",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "6369-395896",
         "⚙": "Account"
       }
     ],

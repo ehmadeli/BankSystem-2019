@@ -15,8 +15,16 @@ class User {
   }
 
   delAccount(account){
-    let index = this.accounts.indexOf(account);
-    this.accounts.splice(index, 1);
+    //let index = this.accounts.indexOf(account);
+    for(let x=0; x<this.accounts.length; x++ ){
+      if(this.accounts[x].name == account){
+        this.accounts.splice(x, 1);
+        break;
+      }
+    }
+    
+    //console.log("indexUsers: " + index);
+    //this.accounts.splice(index, 1);
   }
 
   async save(){
