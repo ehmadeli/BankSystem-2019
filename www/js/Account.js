@@ -14,19 +14,25 @@ class Account {
   }
 
   deposit(label, amount){
-    if(amount/1 > 0 && amount/1 <= 30000){
-    this.balance += amount;
-    this.history.unshift({label: label, amount: amount, time: this.formatTime()});
+    let limit = amount/1 < 0 ? amount/1 * (-1) : amount/1;
+    if(limit > 0 && limit <= 30000){
+      this.balance += amount;
+      this.history.unshift({label: label, amount: amount, time: this.formatTime()});
     } else {
       console.log("transferring amount is 0 or more than 30000 sek")
     }
   }
 
   withdraw(label, amount){
+    this.deposit(label, -amount);
+  }
+
+  checkBalance(amount){
     if(this.balance >= amount){
-      this.deposit(label, -amount);
+      return true;
     } else {
-      console.log("Balance is negative. Transaction is not available !")
+      console.log("Balance is negative. Transaction is not available !");
+      return false;
     }
   }
 

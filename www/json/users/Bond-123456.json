@@ -79,9 +79,14 @@
       },
       {
         "name": "SparKonto",
-        "balance": 19405,
+        "balance": 19805,
         "credit": false,
         "history": [
+          {
+            "label": "Test -400 from: 8161-401182",
+            "amount": 400,
+            "time": "2019-03-21 13:24"
+          },
           {
             "label": " from: 8161-401182",
             "amount": 305,
