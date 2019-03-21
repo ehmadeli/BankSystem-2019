@@ -28,7 +28,7 @@ class Betalning {
     // Get the correct account
     let account = App.user.accounts.filter(account => account.accountNumber === f.accountNumber)[0];
     let accountTo = App.user.accounts.filter(account => account.accountNumber === f.accountNumberTo)[0];
-    // Deposit or withdraw
+    // Deposit or withdraw from different accounts
     if(account != accountTo){
       account.withdraw(f.label + ' to: ' + f.accountNumberTo, f.sum);
       accountTo.deposit(f.label + ' from: ' + f.accountNumber, f.sum);
