@@ -33,7 +33,7 @@ class Betalning {
       account.withdraw(f.label + ' to: ' + f.accountNumberTo, f.sum);
       accountTo.deposit(f.label + ' from: ' + f.accountNumber, f.sum);
     } else {
-      console.log("the same accounts");
+      console.log("Transaction ii failed");
     }
     
     // Save the user data

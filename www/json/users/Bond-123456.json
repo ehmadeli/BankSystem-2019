@@ -5,9 +5,24 @@
     "accounts": [
       {
         "name": "Test1",
-        "balance": 300,
+        "balance": 30282,
         "credit": false,
         "history": [
+          {
+            "label": "withdraw: ",
+            "amount": 0,
+            "time": "2019-03-21 14:30"
+          },
+          {
+            "label": "deposit: Test",
+            "amount": 30002,
+            "time": "2019-03-21 14:28"
+          },
+          {
+            "label": "Test 20 to: 2567-468067",
+            "amount": -20,
+            "time": "2019-03-21 14:19"
+          },
           {
             "label": "deposit: ",
             "amount": 1000,
@@ -79,9 +94,14 @@
       },
       {
         "name": "SparKonto",
-        "balance": 19805,
+        "balance": 19825,
         "credit": false,
         "history": [
+          {
+            "label": "Test 20 from: 8161-401182",
+            "amount": 20,
+            "time": "2019-03-21 14:19"
+          },
           {
             "label": "Test -400 from: 8161-401182",
             "amount": 400,
