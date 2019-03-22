@@ -5,15 +5,42 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 0,
-        "history": [],
+        "balance": -4000,
+        "history": [
+          {
+            "label": " to Pg/Bg 33334444",
+            "amount": -5000,
+            "time": "3/20/2019, 11:48 AM"
+          },
+          {
+            "label": "deposit: refill",
+            "amount": 1000,
+            "time": "3/20/2019, 11:05 AM"
+          },
+          {
+            "label": " to: 3413-846898",
+            "amount": -300,
+            "time": "3/20/2019, 10:59 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 300,
+            "time": "3/20/2019, 10:59 AM"
+          }
+        ],
         "accountNumber": "7201-704013",
         "⚙": "Account"
       },
       {
         "name": "savings",
-        "balance": 0,
-        "history": [],
+        "balance": 300,
+        "history": [
+          {
+            "label": " from: 7201-704013",
+            "amount": 300,
+            "time": "3/20/2019, 10:59 AM"
+          }
+        ],
         "accountNumber": "3413-846898",
         "⚙": "Account"
       }

@@ -5,8 +5,43 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 21448.55,
+        "balance": 75670.55,
         "history": [
+          {
+            "label": "hi to Pg/Bg 33334444",
+            "amount": -222,
+            "time": "3/22/2019, 9:25 PM"
+          },
+          {
+            "label": " from: 5870-495566",
+            "amount": 0,
+            "time": "3/22/2019, 9:14 PM"
+          },
+          {
+            "label": " to: 5870-495566",
+            "amount": 0,
+            "time": "3/22/2019, 9:14 PM"
+          },
+          {
+            "label": "withdraw: sl",
+            "amount": -5000,
+            "time": "3/22/2019, 9:05 PM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 10000,
+            "time": "3/22/2019, 7:05 PM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 44444,
+            "time": "3/22/2019, 7:05 PM"
+          },
+          {
+            "label": "deposit: hi",
+            "amount": 5000,
+            "time": "3/22/2019, 7:00 PM"
+          },
           {
             "label": "Skatteåterbäring 2018",
             "amount": 9023.5,

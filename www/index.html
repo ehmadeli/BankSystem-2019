@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="css/libs/bootstrap.css">
   <link rel="stylesheet" href="css/sticky-footer.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -14,49 +16,55 @@
   <header class="fixed-top ">
       <div class="bg-warning"></div>
       <div class="p-3 bg-white">
-    <div class="col-sm-1 pull-right text-center"><img src="swedbank.png" alt="logo" class="logo"></div>
-    <small class="float-right only-if-logged-in">Inloggad som <span class="username"></span></small>
+    <div class="col-sm-2 pull-right text-center"><img src="swedbank.png" alt="logo" class="logo"></div>
+    <small class="float-right only-if-logged-in"><i class="fas fa-hand-point-right"></i> Inloggad som <span class="username"></span></small>
     </div>
   </header>
 
   <main class="container-fluid mt-5 ml-3">
     <div class="row">
-          <aside class="col-4 col-sm-2 sidenav">
-        <nav>
+          <aside class="col-md-2 sidenav">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <button class="navbar-toggler ml-auto mb-2 bg-dark" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link" href="#start">Start</a>
+            <li class="nav-item mt-3 text-left">
+              <a class="nav-link" href="#start"><i class="fas fa-home"></i> Start</a>
             </li>
-            <li class="nav-item only-if-not-logged-in">
-              <a class="nav-link" href="#login">Logga in</a>
+            <li class="nav-item only-if-not-logged-in text-left">
+              <a class="nav-link" href="#login"><i class="fas fa-sign-in-alt"></i> Logga in</a>
             </li>
-            <li class="nav-item only-if-not-logged-in">
-              <a class="nav-link" href="#register">Bli kund</a>
+            <li class="nav-item only-if-not-logged-in text-left">
+              <a class="nav-link" href="#register"><i class="fas fa-registered"></i> Bli kund</a>
             </li>
-            <li class="nav-item only-if-logged-in">
-              <a class="nav-link" href="#my-accounts">Mina konton</a>
+            <li class="nav-item only-if-logged-in text-left">
+              <a class="nav-link " href="#my-accounts"><i class="far fa-user-circle"></i> Mina konton</a>
             </li>
+            
             
             <!--
             <li class="nav-item only-if-logged-in">
               <a class="nav-link" href="#simulate">...simulera...</a>
             -->  
-            <li class="nav-item only-if-logged-in">
-                <a class="nav-link" href="#simulate">Insättning/Uttag</a>
+            <li class="nav-item only-if-logged-in text-left">
+                <a class="nav-link" href="#simulate"><i class="fas fa-money-bill-wave"></i> Insättning / Uttag</a>
             </li>
-            <li class="nav-item only-if-logged-in">
-              <a class="nav-link" href="#betalning">Betalningar till egna konto</a>
+            <li class="nav-item only-if-logged-in text-left">
+              <a class="nav-link" href="#betalning"><i class="fas fa-money-check-alt"></i> Betalningar till egna konto</a>
             </li>
-            <li class="nav-item only-if-logged-in">
-              <a class="nav-link" href="#betalning-pgbg">Betalningar till Pg/Bg</a>
+            <li class="nav-item only-if-logged-in text-left">
+              <a class="nav-link" href="#betalning-pgbg"><i class="fas fa-shopping-cart"></i> Betalningar till Pg/Bg</a>
             </li>
-            <li class="nav-item only-if-logged-in">
-              <a class="nav-link" href="#logout">Logga ut</a>
+            <li class="nav-item only-if-logged-in text-left">
+              <a class="nav-link" href="#logout"><i class="fas fa-sign-out-alt"></i> Logga ut</a>
             </li>
           </ul>
+    </div>
         </nav>
       </aside>
-      <article class="col-7 col-sm-8 mt-4"></article>
+      <article class="col-md-9 mt-5 ml-4"></article>
     </div>
   </main>
   <footer class="mt-4"><div class="bg-warning"></div></footer>
