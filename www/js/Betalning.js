@@ -32,8 +32,6 @@ class Betalning {
     if((account != accountTo) && (account.checkBalance(f.sum))){
       account.withdraw(f.label + ' to: ' + f.accountNumberTo, f.sum);
       accountTo.deposit(f.label + ' from: ' + f.accountNumber, f.sum);
-    } else {
-      console.log("Transaction ii failed");
     }
     
     // Save the user data

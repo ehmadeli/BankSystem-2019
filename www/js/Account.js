@@ -29,9 +29,18 @@ class Account {
 
   checkBalance(amount){
     if(  amount <= 30000 && amount != 0){
-      return true;
+      if((this.balance - amount >= 0) && !this.credit){
+        return true;
+      } 
+      else if(this.credit){
+        return true;
+      }
+      else {
+        console.log("Balance is negative. Transaction is failed !");
+        return false;
+      }
     } else {
-      console.log("Balance is negative or amount is 0 or more than 30000 Sek. Transaction is not available !");
+      console.log("The amount is 0 or more than 30000 Sek. Transaction is failed !");
       return false;
     }
   }

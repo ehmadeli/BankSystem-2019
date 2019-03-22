@@ -27,7 +27,7 @@ class Simulate {
     // Get the correct account
     let account = App.user.accounts.filter(account => account.accountNumber === f.accountNumber)[0];
     // Deposit or withdraw
-    if(account.checkBalance(f.sum/1)){
+    if(account.checkBalance(f.sum)){
       account[f.depositOrWithdraw](f.depositOrWithdraw + ': ' + f.label, f.sum);
     }
     // Save the user data

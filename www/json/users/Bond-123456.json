@@ -5,9 +5,14 @@
     "accounts": [
       {
         "name": "Test1",
-        "balance": 30282,
+        "balance": 31282,
         "credit": false,
         "history": [
+          {
+            "label": " from: 1076-356531",
+            "amount": 1000,
+            "time": "2019-03-22 09:56"
+          },
           {
             "label": "withdraw: ",
             "amount": 0,
@@ -147,25 +152,6 @@
         "⚙": "Account"
       },
       {
-        "name": "CreditCard",
-        "balance": 51000,
-        "credit": false,
-        "history": [
-          {
-            "label": " from: 8161-401182",
-            "amount": 1000,
-            "time": "2019-03-20 18:32"
-          },
-          {
-            "label": "deposit: Credit",
-            "amount": 50000,
-            "time": "2019-03-20 11:47"
-          }
-        ],
-        "accountNumber": "9458-815255",
-        "⚙": "Account"
-      },
-      {
         "name": "InvestKonto",
         "balance": 1000000,
         "credit": false,
@@ -195,11 +181,17 @@
         "⚙": "Account"
       },
       {
-        "name": "Test5",
-        "balance": 0,
-        "credit": false,
-        "history": [],
-        "accountNumber": "2822-800212",
+        "name": "CreditCard",
+        "balance": -30000,
+        "credit": true,
+        "history": [
+          {
+            "label": " to: 1076-356531",
+            "amount": -30000,
+            "time": "2019-03-22 10:07"
+          }
+        ],
+        "accountNumber": "1687-521487",
         "⚙": "Account"
       }
     ],

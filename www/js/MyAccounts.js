@@ -51,11 +51,17 @@ class MyAccounts {
  addAccount(){
   if (!App.user) { return; }
   // Add the account
+  let credit = document.getElementById("credit").checked;
   let name = $('#newAccountName').val();
-  App.user.addAccount(name);
-  //App.user.
-  // Save the user data
-  App.user.save();
+  //Create account with name
+  if(name != ""){
+    App.user.addAccount(name, credit);
+    // Save the user data
+    App.user.save();
+  }else {
+    console.log("The name of account is empty !!!")
+  }
+  
   // Update the display
   this.updateDisplay();
 }

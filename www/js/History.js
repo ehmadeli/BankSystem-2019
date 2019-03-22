@@ -22,7 +22,7 @@ class History {
       }
     }
 
-    console.log(account, no)
+    //console.log(account, no)
     // Start generating dynamic html
     $('.history-headline').text(account.name + ' ' + account.accountNumber);
 
@@ -43,17 +43,17 @@ class History {
     $('.history tbody').html(html);
   }
 
-  /*onsubmit(e) {
+  onsubmit(e) {
    // Don't send the form
    e.preventDefault();
    // Collect the form data
-   this.collectFormdata();
-   let f = this.formdata;
+   ///this.collectFormdata();
+   ///let f = this.formdata;
    // convert the sum to a number - if not possible set it to 0
-   f.sum = isNaN(f.sum / 1) ? 0 : f.sum / 1;
+   ///f.sum = isNaN(f.sum / 1) ? 0 : f.sum / 1;
    // Get the correct account
-   let account = App.user.accounts.filter(account => account.accountNumber === f.accountNumber)[0];
+   ///let account = App.user.accounts.filter(account => account.accountNumber === f.accountNumber)[0];
    // Goto the my-accounts page
    location.hash = "#my-accounts";
- }*/
+ }
 }
