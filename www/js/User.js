@@ -8,8 +8,9 @@ class User {
     this.addAccount('Lönekonto');
   }
 
-  addAccount(name) {
+  addAccount(name,credit) {
     let newAccount = new Account(name);
+    newAccount.credit = credit;
     this.accounts.push(newAccount);
     return newAccount;
   }

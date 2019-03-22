@@ -5,8 +5,24 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 5700,
+        "balance": 6600,
+        "credit": false,
         "history": [
+          {
+            "label": "deposit: Test +999",
+            "amount": 900,
+            "time": "2019-03-21 11:14"
+          },
+          {
+            "label": " from: 1215-004618",
+            "amount": 5000,
+            "time": "2019-03-21 11:13"
+          },
+          {
+            "label": " to: 1215-004618",
+            "amount": -5000,
+            "time": "2019-03-21 11:13"
+          },
           {
             "label": "",
             "amount": 300,
@@ -39,6 +55,7 @@
       {
         "name": "sparkonto 2",
         "balance": 300,
+        "credit": false,
         "history": [
           {
             "label": "",

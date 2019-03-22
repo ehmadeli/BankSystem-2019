@@ -28,7 +28,9 @@ class BetalningPgBg {
     // Get the correct account
     let account = App.user.accounts.filter(account => account.accountNumber === f.accountNumber)[0];
     // Deposit or withdraw
-    account.withdraw(f.label + ' to Pg/Bg ' + f.pgbg , f.sum);
+    if(account.checkBalance(f.sum)){
+      account.withdraw(f.label + ' to Pg/Bg ' + f.pgbg , f.sum);
+    }
     // Save the user data
     App.user.save();
     // Goto the my-accounts page

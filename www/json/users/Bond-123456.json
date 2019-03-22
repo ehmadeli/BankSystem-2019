@@ -5,29 +5,193 @@
     "accounts": [
       {
         "name": "Test1",
-        "balance": 0,
-        "history": [],
+        "balance": 31282,
+        "credit": false,
+        "history": [
+          {
+            "label": " from: 1076-356531",
+            "amount": 1000,
+            "time": "2019-03-22 09:56"
+          },
+          {
+            "label": "withdraw: ",
+            "amount": 0,
+            "time": "2019-03-21 14:30"
+          },
+          {
+            "label": "deposit: Test",
+            "amount": 30002,
+            "time": "2019-03-21 14:28"
+          },
+          {
+            "label": "Test 20 to: 2567-468067",
+            "amount": -20,
+            "time": "2019-03-21 14:19"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 1000,
+            "time": "2019-03-20 18:48"
+          },
+          {
+            "label": "withdraw: ",
+            "amount": -10000,
+            "time": "2019-03-20 18:46"
+          },
+          {
+            "label": " to: 1562-442573",
+            "amount": -1000,
+            "time": "2019-03-20 18:32"
+          },
+          {
+            "label": " to: 9458-815255",
+            "amount": -1000,
+            "time": "2019-03-20 18:32"
+          },
+          {
+            "label": " from: 2567-468067",
+            "amount": 1000,
+            "time": "2019-03-20 18:32"
+          },
+          {
+            "label": "1000 from: 1562-442573",
+            "amount": 0,
+            "time": "2019-03-20 18:31"
+          },
+          {
+            "label": " from: 1562-442573",
+            "amount": 1000,
+            "time": "2019-03-20 18:31"
+          },
+          {
+            "label": " from: 2567-468067",
+            "amount": 100,
+            "time": "2019-03-20 18:30"
+          },
+          {
+            "label": " from: 2567-468067",
+            "amount": 100,
+            "time": "2019-03-20 18:30"
+          },
+          {
+            "label": " from: 2567-468067",
+            "amount": 100,
+            "time": "2019-03-20 18:30"
+          },
+          {
+            "label": "till NodeHill to Pg/Bg 3456-6789",
+            "amount": -800,
+            "time": "2019-03-20 11:49"
+          },
+          {
+            "label": "Skatteverket to Pg/Bg 1234-6789",
+            "amount": -200,
+            "time": "2019-03-20 11:49"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 10000,
+            "time": "2019-03-20 11:37"
+          }
+        ],
         "accountNumber": "8161-401182",
         "⚙": "Account"
       },
       {
-        "name": "CreditCard",
-        "balance": 50000,
+        "name": "SparKonto",
+        "balance": 19825,
+        "credit": false,
         "history": [
           {
-            "label": "deposit: ",
-            "amount": 50000,
-            "time": "2019-03-20 09:24"
+            "label": "Test 20 from: 8161-401182",
+            "amount": 20,
+            "time": "2019-03-21 14:19"
+          },
+          {
+            "label": "Test -400 from: 8161-401182",
+            "amount": 400,
+            "time": "2019-03-21 13:24"
+          },
+          {
+            "label": " from: 8161-401182",
+            "amount": 305,
+            "time": "2019-03-20 18:49"
+          },
+          {
+            "label": " from: 8161-401182",
+            "amount": 400,
+            "time": "2019-03-20 18:49"
+          },
+          {
+            "label": " to: 8161-401182",
+            "amount": -1000,
+            "time": "2019-03-20 18:32"
+          },
+          {
+            "label": " to: 8161-401182",
+            "amount": -100,
+            "time": "2019-03-20 18:30"
+          },
+          {
+            "label": " to: 8161-401182",
+            "amount": -100,
+            "time": "2019-03-20 18:30"
+          },
+          {
+            "label": " to: 8161-401182",
+            "amount": -100,
+            "time": "2019-03-20 18:30"
+          },
+          {
+            "label": "deposit: min pension",
+            "amount": 20000,
+            "time": "2019-03-20 11:40"
           }
         ],
-        "accountNumber": "7995-431431",
+        "accountNumber": "2567-468067",
         "⚙": "Account"
       },
       {
-        "name": "Test7",
-        "balance": 0,
-        "history": [],
-        "accountNumber": "6369-395896",
+        "name": "InvestKonto",
+        "balance": 1000000,
+        "credit": false,
+        "history": [
+          {
+            "label": " from: 8161-401182",
+            "amount": 1000,
+            "time": "2019-03-20 18:32"
+          },
+          {
+            "label": "1000 to: 8161-401182",
+            "amount": 0,
+            "time": "2019-03-20 18:31"
+          },
+          {
+            "label": " to: 8161-401182",
+            "amount": -1000,
+            "time": "2019-03-20 18:31"
+          },
+          {
+            "label": "deposit: Mina investeringar",
+            "amount": 1000000,
+            "time": "2019-03-20 11:52"
+          }
+        ],
+        "accountNumber": "1562-442573",
+        "⚙": "Account"
+      },
+      {
+        "name": "CreditCard",
+        "balance": -30000,
+        "credit": true,
+        "history": [
+          {
+            "label": " to: 1076-356531",
+            "amount": -30000,
+            "time": "2019-03-22 10:07"
+          }
+        ],
+        "accountNumber": "1687-521487",
         "⚙": "Account"
       }
     ],
