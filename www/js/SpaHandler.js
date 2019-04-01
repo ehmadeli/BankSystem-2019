@@ -4,7 +4,7 @@ class SpaHandler {
     // on initial page load
     this.onchange();
     // for every change "soft page load"
-    window.onhashchange =  e => this.onchange(e);
+    window.onhashchange = e => this.onchange(e);
   }
 
   async onchange() {
@@ -12,8 +12,8 @@ class SpaHandler {
     let hash = window.location.hash.slice(1);
     // if the hash is empty then set it to "start"
     // if it leads to a page the user is not allowed to see do the same
-    if (hash === '' || !this.allowed(hash)) { hash = 'start'; }
-    
+    if (hash === '' || !this.allowed(hash)) { hash = 'hem'; }
+
     // Don't use the characsters after ?-sign 
     // when we decide what file to load
     hash = hash.split('?')[0];
@@ -46,22 +46,22 @@ class SpaHandler {
     return !notAllowed;
   }
 
-  runUpdates(hash){
+  runUpdates(hash) {
     // update things depending on what "page"/hash
     // the user navigates to
-        if(hash === 'my-accounts'){
+    if (hash === 'my-accounts') {
       App.myAccounts.updateDisplay();
     }
-    if(hash === 'simulate'){
+    if (hash === 'simulate') {
       App.simulate.updateDisplay();
     }
-    if(hash === 'betalning'){
+    if (hash === 'betalning') {
       App.betalning.updateDisplay();
     }
-    if(hash === 'betalning-pgbg'){
+    if (hash === 'betalning-pgbg') {
       App.betalningPgBg.updateDisplay();
     }
-    if(hash === 'history'){
+    if (hash === 'history') {
       App.history.updateDisplay();
     }
   }
