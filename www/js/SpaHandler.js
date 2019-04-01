@@ -49,7 +49,7 @@ class SpaHandler {
   runUpdates(hash){
     // update things depending on what "page"/hash
     // the user navigates to
-    if(hash === 'my-accounts'){
+        if(hash === 'my-accounts'){
       App.myAccounts.updateDisplay();
     }
     if(hash === 'simulate'){
