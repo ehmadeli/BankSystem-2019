@@ -69,3 +69,10 @@ input[type=submit]:active {
   background-color:  #FBF2EA;
   color: #000;
 }
+
+footer li{
+  display: inline-block;
+  padding: 15px;
+  padding-left: 135px;
+  text-align: center;  
+}
