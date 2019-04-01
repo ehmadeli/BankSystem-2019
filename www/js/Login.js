@@ -31,7 +31,7 @@ class Login extends RegisterUser {
       $('.only-if-not-logged-in').hide();
       $('.username').text(App.user.username);
       // Goto the my accounts page
-      location.hash = '#my-accounts';
+      location.hash = '#start';
       // Save the user file name in session storage as well
       // (so we can keep being login after hard page reloads)
       window.sessionStorage.userfile = this.file2;
