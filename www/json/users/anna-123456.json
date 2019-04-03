@@ -5,8 +5,14 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 75670.55,
+        "balance": 75470.55,
+        "credit": false,
         "history": [
+          {
+            "label": "deposit: ",
+            "amount": -200,
+            "time": "3/22/2019, 9:31 PM"
+          },
           {
             "label": "hi to Pg/Bg 33334444",
             "amount": -222,
@@ -69,6 +75,7 @@
       {
         "name": "Sparkonto",
         "balance": 2500,
+        "credit": false,
         "history": [
           {
             "label": "Från moster Olga",
@@ -82,6 +89,7 @@
       {
         "name": "Semester",
         "balance": 9027.25,
+        "credit": false,
         "history": [
           {
             "label": "Sparat till semester",
