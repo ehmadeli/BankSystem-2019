@@ -41,7 +41,7 @@ class Simulate {
     $(this.form).find('input, select').each(function () {
       formdata[this.id] = $(this).val();
     });
-    this.formdata = formdata;
+     this.formdata = formdata;
   }
 
 }

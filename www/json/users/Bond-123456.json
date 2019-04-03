@@ -5,13 +5,32 @@
     "accounts": [
       {
         "name": "Test1",
+<<<<<<< Updated upstream
         "balance": 31182,
+=======
+        "balance": 31122,
+>>>>>>> Stashed changes
         "credit": false,
         "history": [
           {
             "label": "deposit: ",
+<<<<<<< Updated upstream
             "amount": -100,
             "time": "2019-04-03 09:57"
+=======
+            "amount": -10,
+            "time": "4/2/2019, 3:23 PM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": -50,
+            "time": "4/2/2019, 3:09 PM"
+          },
+          {
+            "label": " to: 2567-468067",
+            "amount": -100,
+            "time": "4/2/2019, 9:26 AM"
+>>>>>>> Stashed changes
           },
           {
             "label": " from: 1076-356531",
@@ -94,9 +113,14 @@
       },
       {
         "name": "SparKonto",
-        "balance": 19825,
+        "balance": 19925,
         "credit": false,
         "history": [
+          {
+            "label": " from: 8161-401182",
+            "amount": 100,
+            "time": "4/2/2019, 9:26 AM"
+          },
           {
             "label": "Test 20 from: 8161-401182",
             "amount": 20,
