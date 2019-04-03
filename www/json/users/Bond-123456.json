@@ -5,9 +5,14 @@
     "accounts": [
       {
         "name": "Test1",
-        "balance": 31282,
+        "balance": 31182,
         "credit": false,
         "history": [
+          {
+            "label": "deposit: ",
+            "amount": -100,
+            "time": "2019-04-03 09:57"
+          },
           {
             "label": " from: 1076-356531",
             "amount": 1000,
