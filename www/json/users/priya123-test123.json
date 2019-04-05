@@ -5,9 +5,55 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 0,
+        "balance": 14439,
         "credit": false,
-        "history": [],
+        "history": [
+          {
+            "label": "deposit: hello",
+            "amount": 2000,
+            "time": "2019-04-05 19:57"
+          },
+          {
+            "label": "deposit: eshejhs",
+            "amount": 200,
+            "time": "2019-04-05 19:56"
+          },
+          {
+            "label": "deposit: TEST",
+            "amount": 200,
+            "time": "2019-04-05 19:55"
+          },
+          {
+            "label": "deposit: JSE",
+            "amount": 39,
+            "time": "2019-04-05 19:55"
+          },
+          {
+            "label": "withdraw: TESTTSETEST",
+            "amount": -200,
+            "time": "2019-04-05 19:48"
+          },
+          {
+            "label": "deposit: test",
+            "amount": 2000,
+            "time": "2019-04-05 19:47"
+          },
+          {
+            "label": "withdraw: test",
+            "amount": -200,
+            "time": "2019-04-05 19:45"
+          },
+          {
+            "label": "deposit: test",
+            "amount": 200,
+            "time": "2019-04-05 19:29"
+          },
+          {
+            "label": "deposit: hhhfhf",
+            "amount": 200,
+            "time": "2019-04-05 19:29"
+          }
+        ],
         "accountNumber": "9060-594767",
         "⚙": "Account"
       }
