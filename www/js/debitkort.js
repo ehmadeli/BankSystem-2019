@@ -1,7 +1,7 @@
-class debitkort {
+class Debitkort {
 
   constructor() {
-    this.form = '.debitkort';
+    this.form = '.debitkort-form';
     $(document).on('submit', this.form, e => this.onsubmit(e));
   }
 
@@ -14,7 +14,6 @@ class debitkort {
     }
     // put the html in the DOM
     $(this.form).find('#accountNumber').html(html);
-  
   }
 
   onsubmit(e) {
@@ -29,7 +28,7 @@ class debitkort {
     let account = App.user.accounts.filter(account => account.accountNumber === f.accountNumber)[0];
     // Deposit or withdraw
     if(account.checkBalance(f.sum)){
-      account.withdraw(f.label + ' to Pg/Bg ' + f.pgbg , f.sum);
+      account.deposit(f.label + 'from' + f.accountNumber , f.sum);
     }
     
     // Save the user data

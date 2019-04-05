@@ -13,7 +13,7 @@ class App {
     App.betalningPgBg = new BetalningPgBg();
     App.login = new Login();
     App.history = new History();
-    App.debitkort = new debitkort();
+    App.debitkort = new Debitkort();
 
     // Instances that we don't need to reach/communicate with
     new RegisterUser();

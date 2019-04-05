@@ -6,6 +6,7 @@
       {
         "name": "Lönekonto",
         "balance": -4000,
+        "credit": false,
         "history": [
           {
             "label": " to Pg/Bg 33334444",
@@ -33,8 +34,14 @@
       },
       {
         "name": "savings",
-        "balance": 300,
+        "balance": 180,
+        "credit": false,
         "history": [
+          {
+            "label": " to Pg/Bg 33334444",
+            "amount": -120,
+            "time": "4/5/2019, 3:16 PM"
+          },
           {
             "label": " from: 7201-704013",
             "amount": 300,

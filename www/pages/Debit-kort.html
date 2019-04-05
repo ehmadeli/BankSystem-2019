@@ -1,14 +1,19 @@
 <h3>Beställ Debit Kort</h3>
-<form class="debitkort">
+<form class="debitkort-form needs-validation">
     <div class="form-group">
         <label for="accountNumber"><small>Från Konto</small></label>
         <select class="form-control" id="accountNumber"></select>
       </div>
   <div class="form-group">
-    <label for="sum"><small>Summa (SEK)</small></label>
-    <input type="number" step="any" class="form-control" id="sum" placeholder="250 sek">
+    
+  <select class="custom-select form-control d-block w-100 mt-2" step="any"  required>
+    <option value="">summa</option>
+    <option id="sum" for="sum">250</option>
+  </select>
   </div>
-  
+  <!--<label for="sum"><small>Summa (SEK)</small></label>
+  <input type="number" step="any" class="form-control" id="sum" placeholder="250 sek">-->
+
     <div class="row">
         <!--
       <div class="col-md-4 order-md-2 mb-4">
@@ -129,7 +134,7 @@
             <div class="col-md-5 mb-3">
               <select class="custom-select d-block w-100 mt-2" id="country" required>
                 <option value="">Country</option>
-                <option>United States</option>
+                <option>Sweden</option>
               </select>
               <div class="invalid-feedback">
                 Please select a valid country.
@@ -138,7 +143,7 @@
             <div class="col-md-4 mb-3">
               <select class="custom-select d-block w-100 mt-2" id="state" required>
                 <option value="">State</option>
-                <option>California</option>
+                <option>Stockholm</option>
               </select>
               <div class="invalid-feedback">
                 Please provide a valid state.
