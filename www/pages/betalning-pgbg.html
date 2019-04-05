@@ -1,7 +1,5 @@
-<script src="/js/libs/datepicker-sv.js"></script>
-<h3>Betalningar till Pg/Bg</h3>
 
-<p>Betalningar till PG/BG konton.</p>
+<h3>Betalningar till Pg/Bg</h3>
 <form class="betalning-pgbg-form">
   <div class="form-group">
     <label for="accountNumber"><small>Från Konto</small></label>
@@ -9,7 +7,7 @@
   </div>
   <div class="form-group">
     <label for="pgbg"><small>Till Pg/Bg Konto</small></label>
-    <input type="text" step="any" class="form-control" id="pgbg" placeholder="XXXX-XXXX">
+    <input type="number" ng-model="number" placeholder="XXXX-XXXX" onKeyPress="if(this.value.length==8) return false;" min="0" style="width: 915px;">
   </div>
   <div class="form-group">
     <label for="sum"><small>Summa (SEK)</small></label>
@@ -17,8 +15,8 @@
   </div>
   <div class="form-group">
     <label for="sum"><small>calander </small></label>
-    <input type="text"  class="form-control" id="datepicker" size="30">
-  </div
+    <input type="date" id="myDate"style="width: 915px;" />
+  </div>
   <div class="form-group">
     <label for="label"><small>Meddelande eller OCR</small></label>
     <input type="text" class="form-control" id="label" placeholder="Meddelande som ska visas i kontoutdraget">

@@ -7,26 +7,30 @@ class History {
   }
 
   updateDisplay() {
-    // Fix timing issue on hard login
-    if(!App.user){
-      setTimeout(() => this.updateDisplay(), 100);
-      return;
-    }
-    // Get the account number from the url
-    let no = location.hash.split('?')[1];
-    // Look up the account
+    if (!App.user) { return; }
+    let html = '';
     let account;
+    let no = location.hash.split('?')[1];
+    // loop through the logged in users accounts and create html
     for (let anAccount of App.user.accounts) {
       if (anAccount.accountNumber === no) {
         account = anAccount;
       }
     }
 
+
+    // put the html in the DOM
+       $('.history-headline').text(account.name + ' ' + account.accountNumber);
+  
+    // Get the account number from the url
+   
+    // Look up the account
+    
+
     //console.log(account, no)
     // Start generating dynamic html
     $('.history-headline').text(account.name + ' ' + account.accountNumber);
 
-    let html = '';
     let x = 0;
     for(let transaction of account.history){
       if(x < 10){
