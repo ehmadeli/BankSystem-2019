@@ -14,6 +14,7 @@ class App {
     App.login = new Login();
     App.history = new History();
     App.debitkort = new debitkort();
+    App.start = new Start();
 
     // Instances that we don't need to reach/communicate with
     new RegisterUser();

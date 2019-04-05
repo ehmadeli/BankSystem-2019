@@ -5,9 +5,69 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 75470.55,
+        "balance": 84470.55,
         "credit": false,
         "history": [
+          {
+            "label": "deposit: ",
+            "amount": 1300,
+            "time": "4/5/2019, 10:16 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 1200,
+            "time": "4/5/2019, 10:16 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 1100,
+            "time": "4/5/2019, 10:16 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 1000,
+            "time": "4/5/2019, 10:15 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 900,
+            "time": "4/5/2019, 10:15 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 800,
+            "time": "4/5/2019, 10:15 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 700,
+            "time": "4/5/2019, 10:15 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 600,
+            "time": "4/5/2019, 10:15 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 500,
+            "time": "4/5/2019, 10:15 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 400,
+            "time": "4/5/2019, 10:15 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 300,
+            "time": "4/5/2019, 10:15 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 200,
+            "time": "4/5/2019, 10:15 AM"
+          },
           {
             "label": "deposit: ",
             "amount": -200,
@@ -74,9 +134,69 @@
       },
       {
         "name": "Sparkonto",
-        "balance": 2500,
+        "balance": 3760,
         "credit": false,
         "history": [
+          {
+            "label": "deposit: ",
+            "amount": 160,
+            "time": "4/5/2019, 10:34 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 150,
+            "time": "4/5/2019, 10:34 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 140,
+            "time": "4/5/2019, 10:34 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 130,
+            "time": "4/5/2019, 10:34 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 120,
+            "time": "4/5/2019, 10:34 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 110,
+            "time": "4/5/2019, 10:33 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 100,
+            "time": "4/5/2019, 10:33 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 90,
+            "time": "4/5/2019, 10:33 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 80,
+            "time": "4/5/2019, 10:33 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 70,
+            "time": "4/5/2019, 10:33 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 60,
+            "time": "4/5/2019, 10:33 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 50,
+            "time": "4/5/2019, 10:32 AM"
+          },
           {
             "label": "Från moster Olga",
             "amount": 2500,
@@ -88,9 +208,59 @@
       },
       {
         "name": "Semester",
-        "balance": 9027.25,
+        "balance": 9577.25,
         "credit": false,
         "history": [
+          {
+            "label": "deposit: ",
+            "amount": 100,
+            "time": "4/5/2019, 10:36 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 90,
+            "time": "4/5/2019, 10:36 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 80,
+            "time": "4/5/2019, 10:35 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 70,
+            "time": "4/5/2019, 10:35 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 60,
+            "time": "4/5/2019, 10:35 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 50,
+            "time": "4/5/2019, 10:35 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 40,
+            "time": "4/5/2019, 10:35 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 30,
+            "time": "4/5/2019, 10:35 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 20,
+            "time": "4/5/2019, 10:35 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 10,
+            "time": "4/5/2019, 10:34 AM"
+          },
           {
             "label": "Sparat till semester",
             "amount": 9027.25,

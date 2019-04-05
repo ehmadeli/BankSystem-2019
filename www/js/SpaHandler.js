@@ -29,7 +29,7 @@ class SpaHandler {
     $('article').html(content);
     // run updates...
     this.runUpdates(hash);
-    windows.scrollTo(0.0);
+//    windows.scrollTo(0.0);
   }
 
 
@@ -51,6 +51,9 @@ class SpaHandler {
     // the user navigates to
     if (hash === 'my-accounts') {
       App.myAccounts.updateDisplay();
+    }
+    if (hash === 'start') {
+      App.start.updateDisplay();
     }
     if (hash === 'simulate') {
       App.simulate.updateDisplay();
