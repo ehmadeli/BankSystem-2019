@@ -1,5 +1,5 @@
+
 <h3>Betalningar till Pg/Bg</h3>
-<p>Betalningar till PG/BG konton.</p>
 <form class="betalning-pgbg-form">
   <div class="form-group">
     <label for="accountNumber"><small>Från Konto</small></label>
@@ -7,11 +7,15 @@
   </div>
   <div class="form-group">
     <label for="pgbg"><small>Till Pg/Bg Konto</small></label>
-    <input type="text" step="any" class="form-control" id="pgbg" placeholder="XXXX-XXXX">
+    <input type="number" ng-model="number" placeholder="XXXX-XXXX" onKeyPress="if(this.value.length==8) return false;" min="0" style="width: 915px;">
   </div>
   <div class="form-group">
     <label for="sum"><small>Summa (SEK)</small></label>
     <input type="number" step="any" class="form-control" id="sum" placeholder="Summa i SEK">
+  </div>
+  <div class="form-group">
+    <label for="sum"><small>calander </small></label>
+    <input type="date" id="myDate"style="width: 915px;" />
   </div>
   <div class="form-group">
     <label for="label"><small>Meddelande eller OCR</small></label>
