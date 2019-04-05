@@ -7,7 +7,7 @@
   </div>
   <div class="form-group">
     <label for="pgbg"><small>Till Pg/Bg Konto</small></label>
-    <input type="text" step="any" class="form-control" id="pgbg" placeholder="XXXX-XXXX">
+    <input type="number" ng-model="number" placeholder="XXXX-XXXX" onKeyPress="if(this.value.length==8) return false;" min="0" style="width: 915px;">
   </div>
   <div class="form-group">
     <label for="sum"><small>Summa (SEK)</small></label>

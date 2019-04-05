@@ -1,0 +1,17 @@
+{
+  "data": {
+    "username": "priya123",
+    "myFile": "users/priya123-test123",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 0,
+        "credit": false,
+        "history": [],
+        "accountNumber": "9060-594767",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
