@@ -5,9 +5,19 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 75470.55,
+        "balance": 70070.55,
         "credit": false,
         "history": [
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": -400,
+            "time": "4/5/2019, 6:22 PM"
+          },
+          {
+            "label": "refill to: 6022-944554",
+            "amount": -5000,
+            "time": "4/5/2019, 6:18 PM"
+          },
           {
             "label": "deposit: ",
             "amount": -200,
@@ -74,9 +84,14 @@
       },
       {
         "name": "Sparkonto",
-        "balance": 2500,
+        "balance": 7500,
         "credit": false,
         "history": [
+          {
+            "label": "refill from: 5870-495566",
+            "amount": 5000,
+            "time": "4/5/2019, 6:18 PM"
+          },
           {
             "label": "Från moster Olga",
             "amount": 2500,
