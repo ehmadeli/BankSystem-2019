@@ -67,6 +67,9 @@ class SpaHandler {
     if (hash === 'history') {
       App.history.updateDisplay();
     }
+    if (hash === 'Debit-kort') {
+      App.setting.updateDisplay();
+    }
   }
 
 }
