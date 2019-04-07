@@ -196,9 +196,14 @@
       },
       {
         "name": "CreditCard",
-        "balance": -30000,
+        "balance": -20000,
         "credit": true,
         "history": [
+          {
+            "label": " from: 5316-824695",
+            "amount": 10000,
+            "time": "2019-04-03 10:00"
+          },
           {
             "label": " to: 1076-356531",
             "amount": -30000,
@@ -206,6 +211,20 @@
           }
         ],
         "accountNumber": "1687-521487",
+        "⚙": "Account"
+      },
+      {
+        "name": "Credit2",
+        "balance": -10000,
+        "credit": true,
+        "history": [
+          {
+            "label": " to: 1687-521487",
+            "amount": -10000,
+            "time": "2019-04-03 10:00"
+          }
+        ],
+        "accountNumber": "5316-824695",
         "⚙": "Account"
       }
     ],
