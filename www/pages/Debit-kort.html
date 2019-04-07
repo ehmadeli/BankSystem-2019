@@ -5,13 +5,11 @@
         <label for="accountNumber"><small>Från Konto</small></label>
         <select class="form-control" id="accountNumber"></select>
       </div>
-  <div class="form-group">
-    
-  <select class="custom-select form-control d-block w-100 mt-2" step="any"  required>
-    <option value="">summa</option>
-    <option id="sum" for="sum">250</option>
-  </select>
-  </div>
+  
+      <div class="form-group">
+        <label for="sum"><small>Summa (SEK)</small></label>
+        <input type="number" step="any" class="form-control" id="sum" placeholder="Summa i SEK" value="250">
+      </div>
   <!--<label for="sum"><small>Summa (SEK)</small></label>
   <input type="number" step="any" class="form-control" id="sum" placeholder="250 sek">-->
 
@@ -250,6 +248,7 @@
       </div>
 </form>
 <script>
+
 $(document).ready(function(){
   $("#preview").click(function(){
     

@@ -5,8 +5,29 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 1150,
+        "balance": 1550,
+        "credit": false,
         "history": [
+          {
+            "label": " Debitcard ",
+            "amount": -250,
+            "time": "4/7/2019, 3:34 PM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": -250,
+            "time": "4/7/2019, 3:33 PM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 500,
+            "time": "4/7/2019, 3:33 PM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 400,
+            "time": "4/7/2019, 3:33 PM"
+          },
           {
             "label": "Fick pengar av farsan",
             "amount": 150,
@@ -24,6 +45,7 @@
       {
         "name": "Sparkonto",
         "balance": 0,
+        "credit": false,
         "history": [],
         "accountNumber": "5758-145647",
         "⚙": "Account"
