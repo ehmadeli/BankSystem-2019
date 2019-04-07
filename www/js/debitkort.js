@@ -22,13 +22,14 @@ class Debitkort {
     // Collect the form data
     this.collectFormdata();
     let f = this.formdata;
+  
     // convert the sum to a number - if not possible set it to 0
     f.sum = isNaN(f.sum / 1) ? 0 : f.sum / 1;
     // Get the correct account
     let account = App.user.accounts.filter(account => account.accountNumber === f.accountNumber)[0];
     // Deposit or withdraw
     if(account.checkBalance(f.sum)){
-      account.deposit(f.label + 'from' + f.accountNumber , f.sum);
+      account.withdraw(' Debitcard ', f.sum);
     }
     
     // Save the user data

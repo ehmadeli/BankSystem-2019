@@ -6,6 +6,7 @@
       {
         "name": "Lönekonto",
         "balance": 0,
+        "credit": false,
         "history": [],
         "accountNumber": "1884-868771",
         "⚙": "Account"
