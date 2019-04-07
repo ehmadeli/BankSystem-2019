@@ -4,6 +4,7 @@
     "myFile": "users/priya123-test123",
     "accounts": [
       {
+<<<<<<< HEAD
         "name": "Lönekonto",
         "balance": 18798.2,
         "credit": false,
@@ -267,50 +268,47 @@
             "label": "deposit: hello",
             "amount": 2000,
             "time": "2019-04-05 19:57"
+=======
+        "name": "spar konto",
+        "balance": 333,
+        "credit": false,
+        "history": [
+          {
+            "label": "undefineddebitcardundefined",
+            "amount": -250,
+            "time": "4/7/2019, 2:39 PM"
+>>>>>>> master
           },
           {
-            "label": "deposit: eshejhs",
-            "amount": 200,
-            "time": "2019-04-05 19:56"
+            "label": "undefineddebitcardundefined",
+            "amount": -250,
+            "time": "4/7/2019, 2:33 PM"
           },
           {
-            "label": "deposit: TEST",
-            "amount": 200,
-            "time": "2019-04-05 19:55"
+            "label": " from: 9060-594767",
+            "amount": 333,
+            "time": "4/7/2019, 1:46 PM"
           },
           {
-            "label": "deposit: JSE",
-            "amount": 39,
-            "time": "2019-04-05 19:55"
-          },
-          {
-            "label": "withdraw: TESTTSETEST",
-            "amount": -200,
-            "time": "2019-04-05 19:48"
-          },
-          {
-            "label": "deposit: test",
-            "amount": 2000,
-            "time": "2019-04-05 19:47"
-          },
-          {
-            "label": "withdraw: test",
-            "amount": -200,
-            "time": "2019-04-05 19:45"
-          },
-          {
-            "label": "deposit: test",
-            "amount": 200,
-            "time": "2019-04-05 19:29"
-          },
-          {
-            "label": "deposit: hhhfhf",
-            "amount": 200,
-            "time": "2019-04-05 19:29"
+            "label": " from: 9060-594767",
+            "amount": 500,
+            "time": "4/6/2019, 8:55 PM"
           }
         ],
+<<<<<<< HEAD
         "accountlimit": 40000,
         "accountNumber": "9060-594767",
+=======
+        "accountNumber": "2922-501951",
+        "⚙": "Account"
+      },
+      {
+        "name": "lönkonto",
+        "balance": 0,
+        "credit": false,
+        "history": [],
+        "accountNumber": "9429-965157",
+>>>>>>> master
         "⚙": "Account"
       }
     ],

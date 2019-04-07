@@ -1,17 +1,15 @@
 <h3>Beställ Debit Kort</h3>
-<form class="debitkort-form needs-validation">
+<form class="debitkort-form needs-validation" id="form">
 
     <div class="form-group">
         <label for="accountNumber"><small>Från Konto</small></label>
         <select class="form-control" id="accountNumber"></select>
       </div>
-  <div class="form-group">
-    
-  <select class="custom-select form-control d-block w-100 mt-2" step="any"  required>
-    <option value="">summa</option>
-    <option id="sum" for="sum">250</option>
-  </select>
-  </div>
+  
+      <div class="form-group">
+        <label for="sum"><small>Summa (SEK)</small></label>
+        <input type="number" step="any" class="form-control" id="sum" placeholder="Summa i SEK" value="250">
+      </div>
   <!--<label for="sum"><small>Summa (SEK)</small></label>
   <input type="number" step="any" class="form-control" id="sum" placeholder="250 sek">-->
 
@@ -193,9 +191,11 @@
           <div class="row">
             <div class="col-md-6 mb-2">
               <div class="md-form md-outline my-2">
-                <input type="text" id="cc-name" class="form-control" required>
+                <input type="text" id="cc-name" class="form-control msginput" required>
                 <label for="cc-name">Name on card</label>
                 <small class="text-muted">Full name as displayed on card</small>
+                <input type="checkbox"  id="preview" value="preview">
+                <div class="blue-box" style="display: none"></div>
               </div>
               <div class="invalid-feedback">
                 Name on card is required
@@ -238,11 +238,30 @@
     </div>
   -->  
   <div>
-  <button type="submit" class="btn btn-outline-danger float-right mt-3">Utför</button>
+  <button type="submit" class="btn btn-outline-danger float-right mt-3" value="submit">Utför</button>
   <div class="container">
     <div class="py-5 text-center">
       <img class="d-block mx-auto mb-4" src="#" alt="" width="180">
-      
+     
   </div>
+
       </div>
 </form>
+<script>
+
+$(document).ready(function(){
+  $("#preview").click(function(){
+    
+    let message =$('.msginput').val();
+
+    var randomnumber = Math.floor(Math.random() * 10000000000000000);
+    //str.replace(/(\d{3})/g, '$1 ').trim();
+  $(".blue-box").toggle().html('<br> <br> <br> <br><br><p> <strong>' + '&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp '+'Name:'+'\t'+ message + ' '+ '<p>' +'&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp' +'cardNo:' +' '+ randomnumber +' </p>' + '</strong> </p>');
+  event.stopPropagation();
+});
+
+});
+
+
+
+</script>

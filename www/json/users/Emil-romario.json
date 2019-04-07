@@ -5,9 +5,74 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 6600,
+        "balance": 7750,
         "credit": false,
         "history": [
+          {
+            "label": " Debitcard ",
+            "amount": -250,
+            "time": "4/7/2019, 3:29 PM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 100,
+            "time": "4/7/2019, 3:29 PM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": -250,
+            "time": "4/7/2019, 3:27 PM"
+          },
+          {
+            "label": "deposit: hi",
+            "amount": 1000,
+            "time": "4/7/2019, 3:27 PM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": -250,
+            "time": "4/7/2019, 3:26 PM"
+          },
+          {
+            "label": "undefined Debitcard undefined",
+            "amount": -250,
+            "time": "4/7/2019, 3:25 PM"
+          },
+          {
+            "label": "undefined to Pg/Bg undefined",
+            "amount": -250,
+            "time": "4/7/2019, 3:23 PM"
+          },
+          {
+            "label": "undefineddebitcardundefined",
+            "amount": -250,
+            "time": "4/7/2019, 3:11 PM"
+          },
+          {
+            "label": "withdraw: ",
+            "amount": -200,
+            "time": "4/7/2019, 3:10 PM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 500,
+            "time": "4/7/2019, 3:10 PM"
+          },
+          {
+            "label": "undefineddebitcardundefined",
+            "amount": -250,
+            "time": "4/7/2019, 3:09 PM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 1000,
+            "time": "4/7/2019, 3:03 PM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 500,
+            "time": "4/7/2019, 3:03 PM"
+          },
           {
             "label": "deposit: Test +999",
             "amount": 900,
@@ -54,9 +119,14 @@
       },
       {
         "name": "sparkonto 2",
-        "balance": 300,
+        "balance": 50,
         "credit": false,
         "history": [
+          {
+            "label": "undefined to Pg/Bg undefined",
+            "amount": -250,
+            "time": "4/7/2019, 3:24 PM"
+          },
           {
             "label": "",
             "amount": -300,

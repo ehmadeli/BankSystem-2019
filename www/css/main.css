@@ -85,3 +85,12 @@ label.btn input[type=checkbox].filled-in:checked+label:after {
 .mb-4-5 {
   margin-bottom: 24px;
 }
+.blue-box {
+  float: left;
+  width: 345px;
+  height: 200px;
+  margin: 10px 10px 10px 0;
+  padding: 10px;
+  color: orange;
+  background-image: url(debitcard.JPG);
+}
