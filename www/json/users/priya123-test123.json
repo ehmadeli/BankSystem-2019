@@ -5,9 +5,19 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 14439,
+        "balance": 13539,
         "credit": false,
         "history": [
+          {
+            "label": " to: 2922-501951",
+            "amount": -500,
+            "time": "4/6/2019, 8:55 PM"
+          },
+          {
+            "label": "withdraw: ",
+            "amount": -400,
+            "time": "4/6/2019, 8:54 PM"
+          },
           {
             "label": "deposit: hello",
             "amount": 2000,
@@ -55,6 +65,20 @@
           }
         ],
         "accountNumber": "9060-594767",
+        "⚙": "Account"
+      },
+      {
+        "name": "spar konto",
+        "balance": 500,
+        "credit": false,
+        "history": [
+          {
+            "label": " from: 9060-594767",
+            "amount": 500,
+            "time": "4/6/2019, 8:55 PM"
+          }
+        ],
+        "accountNumber": "2922-501951",
         "⚙": "Account"
       }
     ],

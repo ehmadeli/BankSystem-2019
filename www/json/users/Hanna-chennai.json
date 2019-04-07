@@ -1,0 +1,25 @@
+{
+  "data": {
+    "username": "Hanna",
+    "myFile": "users/Hanna-chennai",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 0,
+        "credit": false,
+        "history": [],
+        "accountNumber": "7963-275645",
+        "⚙": "Account"
+      },
+      {
+        "name": "spar konto",
+        "balance": 0,
+        "credit": false,
+        "history": [],
+        "accountNumber": "7632-183271",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
