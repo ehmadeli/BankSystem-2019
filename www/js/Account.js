@@ -5,6 +5,7 @@ class Account {
     this.balance = 0;
     this.credit = false;
     this.history = [];
+    this.accountlimit =10000;
     this.accountNumber = this.createAccountNumber()
   }
 
@@ -13,22 +14,31 @@ class Account {
     return ((Math.random() + .1) * 0.9 * 10000).toFixed(6).replace(/\./,'-');
   }
 
-  deposit(label, amount){
+  deposit(label, amounts){
     //let limit = amount/1 < 0 ? amount/1 * (-1) : amount/1;
     //if(limit > 0 && limit <= 30000){
-      this.balance += amount;
-      this.history.unshift({label: label, amount: amount, time: this.formatTime()});
+      if(amounts < 0)
+      {
+        console.log("amount is low")
+      }
+      else
+      {
+        this.balance += amounts;
+        this.history.unshift({label: label, amount: amounts, time: this.formatTime()});
+      }
+     
     //} else {
     //  console.log("transferring amount is 0 or more than 30000 sek")
     //}
   }
 
-  withdraw(label, amount){
-    this.deposit(label, -amount);
+  withdraw(label, amounts){
+    this.balance -= -amounts;
+        this.history.unshift({label: label, amount: "-"+amounts, time: this.formatTime()});
   }
 
   checkBalance(amount){
-    if(  amount <= 30000 && amount != 0){
+    if(  amount <= this.accountlimit && amount != 0){
       if((this.balance - amount >= 0) && !this.credit){
         return true;
       } 
@@ -40,7 +50,7 @@ class Account {
         return false;
       }
     } else {
-      console.log("The amount is 0 or more than 30000 Sek. Transaction is failed !");
+      console.log("The amount is 0 or more than "+this.accountlimit+" Sek. Transaction is failed !");
       return false;
     }
   }

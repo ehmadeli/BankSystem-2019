@@ -1,0 +1,22 @@
+.container{
+
+    padding-left: 15%;
+    padding-bottom: 20px;
+    
+}
+h1{
+    font-weight: bold;
+    color:	#FF7F50;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+h2{
+    padding-left: 10%;
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 25px;
+    color:	#FF7F50;
+}
+.box{
+    padding-left: 10%;
+}

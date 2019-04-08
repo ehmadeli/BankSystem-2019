@@ -4,6 +4,7 @@
     "myFile": "users/priya123-test123",
     "accounts": [
       {
+<<<<<<< HEAD
         "name": "spar konto",
         "balance": 333,
         "credit": false,
@@ -24,11 +25,303 @@
             "time": "4/7/2019, 1:46 PM"
           },
           {
+=======
+<<<<<<< HEAD
+        "name": "Lönekonto",
+        "balance": 18798.2,
+        "credit": false,
+        "history": [
+          {
+            "label": "withdraw: 789078",
+            "amount": "-2000",
+            "time": "2019-04-07 16:56"
+          },
+          {
+            "label": "deposit: slsjls",
+            "amount": 200,
+            "time": "2019-04-07 16:52"
+          },
+          {
+            "label": "withdraw: sejesjkes",
+            "amount": 20,
+            "time": "2019-04-07 16:51"
+          },
+          {
+            "label": "withdraw: test",
+            "amount": 20,
+            "time": "2019-04-07 16:51"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 200,
+            "time": "2019-04-07 16:43"
+          },
+          {
+            "label": "deposit: ssss",
+            "amount": 2000,
+            "time": "2019-04-07 16:34"
+          },
+          {
+            "label": "deposit: snekseknsees",
+            "amount": 2001,
+            "time": "2019-04-07 16:33"
+          },
+          {
+            "label": "deposit: sjes",
+            "amount": 2000,
+            "time": "2019-04-07 16:32"
+          },
+          {
+            "label": "deposit: skjeks",
+            "amount": -20000,
+            "time": "2019-04-07 16:27"
+          },
+          {
+            "label": "deposit: helllo",
+            "amount": 1000,
+            "time": "2019-04-07 16:23"
+          },
+          {
+            "label": "deposit: helllo",
+            "amount": -1000,
+            "time": "2019-04-07 16:23"
+          },
+          {
+            "label": "deposit: seijsej",
+            "amount": 2000,
+            "time": "2019-04-07 16:22"
+          },
+          {
+            "label": "deposit: seijsej",
+            "amount": -2000,
+            "time": "2019-04-07 16:22"
+          },
+          {
+            "label": "deposit: sesesesees",
+            "amount": -20,
+            "time": "2019-04-07 16:14"
+          },
+          {
+            "label": "deposit: 789078",
+            "amount": -200,
+            "time": "2019-04-07 16:11"
+          },
+          {
+            "label": "deposit: senkes",
+            "amount": -20,
+            "time": "2019-04-07 16:10"
+          },
+          {
+            "label": "deposit: sejkes",
+            "amount": -20,
+            "time": "2019-04-07 16:07"
+          },
+          {
+            "label": "deposit: zens",
+            "amount": -20,
+            "time": "2019-04-07 16:07"
+          },
+          {
+            "label": "deposit: 222sss",
+            "amount": -20,
+            "time": "2019-04-07 15:56"
+          },
+          {
+            "label": "deposit: swjkse",
+            "amount": -20,
+            "time": "2019-04-07 15:55"
+          },
+          {
+            "label": "deposit: qqq",
+            "amount": -20,
+            "time": "2019-04-07 15:53"
+          },
+          {
+            "label": "deposit: sss",
+            "amount": -20,
+            "time": "2019-04-07 15:53"
+          },
+          {
+            "label": "deposit: TEST",
+            "amount": -20,
+            "time": "2019-04-07 15:51"
+          },
+          {
+            "label": "deposit: ",
+            "amount": -2,
+            "time": "2019-04-07 15:31"
+          },
+          {
+            "label": "deposit: ssss",
+            "amount": 2000,
+            "time": "2019-04-07 11:38"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 9000,
+            "time": "2019-04-07 11:07"
+          },
+          {
+            "label": "deposit: ",
+            "amount": -22,
+            "time": "2019-04-07 10:50"
+          },
+          {
+            "label": "deposit: LinkL",
+            "amount": -23,
+            "time": "2019-04-06 10:07"
+          },
+          {
+            "label": "deposit: LinkL",
+            "amount": -67,
+            "time": "2019-04-06 10:02"
+          },
+          {
+            "label": "deposit: test",
+            "amount": -11,
+            "time": "2019-04-06 09:58"
+          },
+          {
+            "label": "withdraw: ss",
+            "amount": 11111,
+            "time": "2019-04-06 09:54"
+          },
+          {
+            "label": "deposit: er",
+            "amount": -56,
+            "time": "2019-04-06 09:39"
+          },
+          {
+            "label": "deposit: test",
+            "amount": -78,
+            "time": "2019-04-06 09:37"
+          },
+          {
+            "label": "withdraw: ss",
+            "amount": 23,
+            "time": "2019-04-06 09:37"
+          },
+          {
+            "label": "deposit: bgjggj",
+            "amount": -33,
+            "time": "2019-04-06 05:48"
+          },
+          {
+            "label": "deposit: TEST",
+            "amount": -56,
+            "time": "2019-04-06 05:46"
+          },
+          {
+            "label": "deposit: test",
+            "amount": -67,
+            "time": "2019-04-06 05:45"
+          },
+          {
+            "label": "deposit: ",
+            "amount": -90,
+            "time": "2019-04-06 00:11"
+          },
+          {
+            "label": "deposit: ",
+            "amount": -67,
+            "time": "2019-04-05 23:07"
+          },
+          {
+            "label": "deposit: ss",
+            "amount": -90,
+            "time": "2019-04-05 23:06"
+          },
+          {
+            "label": "deposit: test",
+            "amount": -56,
+            "time": "2019-04-05 23:06"
+          },
+          {
+            "label": "deposit: ss",
+            "amount": -40,
+            "time": "2019-04-05 22:33"
+          },
+          {
+            "label": "deposit: TEST",
+            "amount": 56,
+            "time": "2019-04-05 22:32"
+          },
+          {
+            "label": "withdraw: TEST",
+            "amount": -56,
+            "time": "2019-04-05 22:31"
+          },
+          {
+            "label": "deposit: hhhh",
+            "amount": -678,
+            "time": "2019-04-05 21:26"
+          },
+          {
+            "label": "deposit: ",
+            "amount": -2220,
+            "time": "2019-04-05 20:25"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 0.2,
+            "time": "2019-04-05 20:09"
+          },
+          {
+            "label": "deposit: test",
+            "amount": -200,
+            "time": "2019-04-05 20:07"
+          },
+          {
+            "label": "deposit: add",
+            "amount": 200,
+            "time": "2019-04-05 20:06"
+          },
+          {
+            "label": "deposit: test",
+            "amount": -100,
+            "time": "2019-04-05 20:00"
+          },
+          {
+            "label": "withdraw: withdraw",
+            "amount": -2000,
+            "time": "2019-04-05 19:59"
+          },
+          {
+            "label": "deposit: hello",
+            "amount": 2000,
+            "time": "2019-04-05 19:57"
+=======
+        "name": "spar konto",
+        "balance": 333,
+        "credit": false,
+        "history": [
+          {
+            "label": "undefineddebitcardundefined",
+            "amount": -250,
+            "time": "4/7/2019, 2:39 PM"
+>>>>>>> master
+          },
+          {
+            "label": "undefineddebitcardundefined",
+            "amount": -250,
+            "time": "4/7/2019, 2:33 PM"
+          },
+          {
+            "label": " from: 9060-594767",
+            "amount": 333,
+            "time": "4/7/2019, 1:46 PM"
+          },
+          {
+>>>>>>> master
             "label": " from: 9060-594767",
             "amount": 500,
             "time": "4/6/2019, 8:55 PM"
           }
         ],
+<<<<<<< HEAD
+        "accountlimit": 40000,
+        "accountNumber": "9060-594767",
+=======
         "accountNumber": "2922-501951",
         "⚙": "Account"
       },
@@ -38,6 +331,10 @@
         "credit": false,
         "history": [],
         "accountNumber": "9429-965157",
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> master
         "⚙": "Account"
       }
     ],

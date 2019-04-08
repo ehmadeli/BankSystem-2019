@@ -27,6 +27,11 @@ class BetalningPgBg {
     let f = this.formdata;
     // convert the sum to a number - if not possible set it to 0
     f.sum = isNaN(f.sum / 1) ? 0 : f.sum / 1;
+
+    this.checkForNegativeNumber();
+    this.checkForAmount();
+    this.displayErrors();
+
     // Get the correct account
     let account = App.user.accounts.filter(account => account.accountNumber === f.accountNumber)[0];
     // Deposit or withdraw
@@ -45,6 +50,32 @@ class BetalningPgBg {
       formdata[this.id] = $(this).val();
     });
     this.formdata = formdata;
+  }
+  checkForNegativeNumber() {
+    let f = this.formdata;
+    if (f.sum < 0) {
+      f.errors.sum = 'Du får inte skriva ett negativt nummer';
+      
+    }
+    else
+    {
+      App.user.save();
+      location.hash = "#my-accounts";
+    }
+  }
+  checkForAmount() {
+    let f = this.formdata;
+    let accountFrom = App.user.accounts.filter(account => account.accountNumber === f.fromAccountNumber)[0];
+    if (f.sum > this.balance) {
+      f.errors.sum = 'Du har inte tillräckligt med pengar';
+    }
+  }
+  displayErrors() {
+    let e = this.formdata.errors;
+    $(this.form + ' .error').empty();
+    for (let key in e) {
+      $(this.form + ' #' + key).siblings('.error').text(e[key]);
+    }
   }
 
 }

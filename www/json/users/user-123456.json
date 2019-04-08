@@ -1,0 +1,27 @@
+{
+  "data": {
+    "username": "user",
+    "myFile": "users/user-123456",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 0,
+        "credit": false,
+        "history": [],
+        "accountlimit": 10000,
+        "accountNumber": "5692-676706",
+        "⚙": "Account"
+      },
+      {
+        "name": "Test2",
+        "balance": 0,
+        "credit": true,
+        "history": [],
+        "accountlimit": 10000,
+        "accountNumber": "1216-031891",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
