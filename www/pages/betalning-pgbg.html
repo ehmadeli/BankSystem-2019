@@ -6,8 +6,8 @@
     <select class="form-control" id="accountNumber"></select>
   </div>
   <div class="form-group">
-    <label for="pgbg"><small>Till Pg/Bg Konto</small></label>
-    <input type="number" ng-model="number" placeholder="XXXX-XXXX" onKeyPress="if(this.value.length==8) return false;" min="0" style="width: 915px;">
+    <label for="pgbg"><small>Till Pg/Bg Konto</small></label><br>
+    <input type="number" class="form-control" ng-model="number" placeholder="XXXX-XXXX" onKeyPress="if(this.value.length==8) return false;" min="0" >
   </div>
   <div class="form-group">
     <label for="sum"><small>Summa (SEK)</small></label>
@@ -15,8 +15,8 @@
 	 <small class="error form-text text-danger my-3"></small>
   </div>
   <div class="form-group">
-    <label for="sum"><small>calander </small></label>
-    <input type="date" id="myDate"style="width: 915px;" />
+    <label for="sum"><small>Calander </small></label><br>
+    <input type="date"  class="form-control" id="myDate" />
   </div>
   <div class="form-group">
     <label for="label"><small>Meddelande eller OCR</small></label>
