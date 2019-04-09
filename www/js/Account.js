@@ -33,7 +33,7 @@ class Account {
   }
 
   withdraw(label, amounts){
-    this.balance -= -amounts;
+    this.balance += -amounts;
         this.history.unshift({label: label, amount: "-"+amounts, time: this.formatTime()});
   }
 

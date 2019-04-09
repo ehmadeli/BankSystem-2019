@@ -5,9 +5,69 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 9900,
+        "balance": 7850,
         "credit": false,
         "history": [
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/9/2019, 1:27 PM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/9/2019, 1:26 PM"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-300",
+            "time": "4/9/2019, 1:26 PM"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-500",
+            "time": "4/9/2019, 1:26 PM"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-500",
+            "time": "4/9/2019, 1:26 PM"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-500",
+            "time": "4/9/2019, 1:26 PM"
+          },
+          {
+            "label": " to: 4300-369343",
+            "amount": "-500",
+            "time": "4/9/2019, 1:25 PM"
+          },
+          {
+            "label": " to: 4300-369343",
+            "amount": "-300",
+            "time": "4/9/2019, 1:25 PM"
+          },
+          {
+            "label": " to: 4300-369343",
+            "amount": "-300",
+            "time": "4/9/2019, 1:25 PM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/9/2019, 1:23 PM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/9/2019, 1:22 PM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/9/2019, 1:22 PM"
+          },
           {
             "label": " Debitcard ",
             "amount": "-250",
@@ -160,9 +220,24 @@
       },
       {
         "name": "sparkonto 2",
-        "balance": 50,
+        "balance": 1150,
         "credit": false,
         "history": [
+          {
+            "label": " from: 1215-004618",
+            "amount": 500,
+            "time": "4/9/2019, 1:25 PM"
+          },
+          {
+            "label": " from: 1215-004618",
+            "amount": 300,
+            "time": "4/9/2019, 1:25 PM"
+          },
+          {
+            "label": " from: 1215-004618",
+            "amount": 300,
+            "time": "4/9/2019, 1:25 PM"
+          },
           {
             "label": "undefined to Pg/Bg undefined",
             "amount": -250,
