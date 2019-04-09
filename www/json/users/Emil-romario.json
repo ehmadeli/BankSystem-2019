@@ -5,9 +5,49 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 7750,
+        "balance": 9900,
         "credit": false,
         "history": [
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/9/2019, 1:18 PM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/9/2019, 1:16 PM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/9/2019, 10:32 AM"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-300",
+            "time": "4/9/2019, 10:28 AM"
+          },
+          {
+            "label": "withdraw: ",
+            "amount": "-400",
+            "time": "4/9/2019, 10:04 AM"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-200",
+            "time": "4/9/2019, 10:02 AM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/8/2019, 2:13 PM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/8/2019, 2:12 PM"
+          },
           {
             "label": " Debitcard ",
             "amount": -250,
@@ -114,6 +154,7 @@
             "time": "2019-03-14 14:16"
           }
         ],
+        "accountlimit": 10000,
         "accountNumber": "1215-004618",
         "⚙": "Account"
       },
@@ -143,6 +184,7 @@
             "time": "2019-03-14 15:06"
           }
         ],
+        "accountlimit": 10000,
         "accountNumber": "4300-369343",
         "⚙": "Account"
       }
