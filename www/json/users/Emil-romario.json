@@ -5,9 +5,109 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 7750,
+        "balance": 7850,
         "credit": false,
         "history": [
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/9/2019, 1:27 PM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/9/2019, 1:26 PM"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-300",
+            "time": "4/9/2019, 1:26 PM"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-500",
+            "time": "4/9/2019, 1:26 PM"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-500",
+            "time": "4/9/2019, 1:26 PM"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-500",
+            "time": "4/9/2019, 1:26 PM"
+          },
+          {
+            "label": " to: 4300-369343",
+            "amount": "-500",
+            "time": "4/9/2019, 1:25 PM"
+          },
+          {
+            "label": " to: 4300-369343",
+            "amount": "-300",
+            "time": "4/9/2019, 1:25 PM"
+          },
+          {
+            "label": " to: 4300-369343",
+            "amount": "-300",
+            "time": "4/9/2019, 1:25 PM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/9/2019, 1:23 PM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/9/2019, 1:22 PM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/9/2019, 1:22 PM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/9/2019, 1:18 PM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/9/2019, 1:16 PM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/9/2019, 10:32 AM"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-300",
+            "time": "4/9/2019, 10:28 AM"
+          },
+          {
+            "label": "withdraw: ",
+            "amount": "-400",
+            "time": "4/9/2019, 10:04 AM"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-200",
+            "time": "4/9/2019, 10:02 AM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/8/2019, 2:13 PM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/8/2019, 2:12 PM"
+          },
           {
             "label": " Debitcard ",
             "amount": -250,
@@ -114,14 +214,30 @@
             "time": "2019-03-14 14:16"
           }
         ],
+        "accountlimit": 10000,
         "accountNumber": "1215-004618",
         "⚙": "Account"
       },
       {
         "name": "sparkonto 2",
-        "balance": 50,
+        "balance": 1150,
         "credit": false,
         "history": [
+          {
+            "label": " from: 1215-004618",
+            "amount": 500,
+            "time": "4/9/2019, 1:25 PM"
+          },
+          {
+            "label": " from: 1215-004618",
+            "amount": 300,
+            "time": "4/9/2019, 1:25 PM"
+          },
+          {
+            "label": " from: 1215-004618",
+            "amount": 300,
+            "time": "4/9/2019, 1:25 PM"
+          },
           {
             "label": "undefined to Pg/Bg undefined",
             "amount": -250,
@@ -143,6 +259,7 @@
             "time": "2019-03-14 15:06"
           }
         ],
+        "accountlimit": 10000,
         "accountNumber": "4300-369343",
         "⚙": "Account"
       }

@@ -5,6 +5,28 @@
     "accounts": [
       {
 <<<<<<< HEAD
+        "name": "spar konto",
+        "balance": 333,
+        "credit": false,
+        "history": [
+          {
+            "label": "undefineddebitcardundefined",
+            "amount": -250,
+            "time": "4/7/2019, 2:39 PM"
+          },
+          {
+            "label": "undefineddebitcardundefined",
+            "amount": -250,
+            "time": "4/7/2019, 2:33 PM"
+          },
+          {
+            "label": " from: 9060-594767",
+            "amount": 333,
+            "time": "4/7/2019, 1:46 PM"
+          },
+          {
+=======
+<<<<<<< HEAD
         "name": "Lönekonto",
         "balance": 18798.2,
         "credit": false,
@@ -290,6 +312,7 @@
             "time": "4/7/2019, 1:46 PM"
           },
           {
+>>>>>>> master
             "label": " from: 9060-594767",
             "amount": 500,
             "time": "4/6/2019, 8:55 PM"
@@ -308,6 +331,9 @@
         "credit": false,
         "history": [],
         "accountNumber": "9429-965157",
+<<<<<<< HEAD
+=======
+>>>>>>> master
 >>>>>>> master
         "⚙": "Account"
       }

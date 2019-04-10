@@ -5,20 +5,71 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 0,
+        "balance": 800,
         "credit": false,
-        "history": [],
+        "history": [
+          {
+            "label": " from: 1303-443575",
+            "amount": 800,
+            "time": "2019-04-09 20:16"
+          }
+        ],
         "accountlimit": 10000,
         "accountNumber": "5692-676706",
         "⚙": "Account"
       },
       {
         "name": "Test2",
-        "balance": 0,
+        "balance": 200,
         "credit": true,
-        "history": [],
+        "history": [
+          {
+            "label": " from: 1303-443575",
+            "amount": 200,
+            "time": "2019-04-09 20:16"
+          }
+        ],
         "accountlimit": 10000,
         "accountNumber": "1216-031891",
+        "⚙": "Account"
+      },
+      {
+        "name": "Test56",
+        "balance": 0,
+        "credit": false,
+        "history": [],
+        "accountlimit": 10000,
+        "accountNumber": "6440-186654",
+        "⚙": "Account"
+      },
+      {
+        "name": "CreditCard",
+        "balance": -200,
+        "credit": true,
+        "history": [
+          {
+            "label": " to: 5692-676706",
+            "amount": "-800",
+            "time": "2019-04-09 20:16"
+          },
+          {
+            "label": " to: 1216-031891",
+            "amount": "-200",
+            "time": "2019-04-09 20:16"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-300",
+            "time": "2019-04-08 21:59"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 500,
+            "time": "2019-04-08 21:57"
+          }
+        ],
+        "accountlimit": 10000,
+        "accountNumber": "1303-443575",
         "⚙": "Account"
       }
     ],
