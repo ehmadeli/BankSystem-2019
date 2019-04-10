@@ -1,0 +1,36 @@
+{
+  "data": {
+    "username": "ahmad11",
+    "myFile": "users/ahmad11-123456",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 0,
+        "credit": false,
+        "history": [],
+        "accountlimit": 10000,
+        "accountNumber": "8508-888475",
+        "⚙": "Account"
+      },
+      {
+        "name": "Sparkonto",
+        "balance": 0,
+        "credit": false,
+        "history": [],
+        "accountlimit": 10000,
+        "accountNumber": "9611-921799",
+        "⚙": "Account"
+      },
+      {
+        "name": "SemesterKonto",
+        "balance": 0,
+        "credit": false,
+        "history": [],
+        "accountlimit": 10000,
+        "accountNumber": "9551-543365",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
