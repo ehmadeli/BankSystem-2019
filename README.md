@@ -5,4 +5,4 @@ Notera att det är viktigt att göra frekventa commits och hela tiden kontroller
 1. Ha allitd Gitkraken igång med rätt repo öppet.
 2. Ha alltid hela mappen synlig i Visual Studio Code.
 
-Livet är fint!
+Livet är fint utan sub-moduler!
