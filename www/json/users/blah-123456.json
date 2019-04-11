@@ -1,0 +1,23 @@
+{
+  "data": {
+    "username": "blah",
+    "myFile": "users/blah-123456",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 3750,
+        "credit": false,
+        "history": [
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/11/2019, 3:42 PM"
+          }
+        ],
+        "accountNumber": "2846-299882",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}

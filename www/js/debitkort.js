@@ -36,7 +36,7 @@ class Debitkort {
     App.user.save();
     // Goto the my-accounts page
     location.hash = "#my-accounts";
-    alert('Thank you for ordering new Debit card. The card will be delivered to your adress within 3 working days.');
+    alert('Tack för att du beställde ett nytt betalkort. Kortet kommer att levereras till din adress inom 3 arbetsdagar.');
   }
 
   collectFormdata() {
