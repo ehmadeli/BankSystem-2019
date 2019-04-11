@@ -5,7 +5,7 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 0,
+        "balance": 7850,
         "credit": false,
         "history": [],
         "accountNumber": "7963-275645",
@@ -13,7 +13,7 @@
       },
       {
         "name": "spar konto",
-        "balance": 0,
+        "balance": 5000,
         "credit": false,
         "history": [],
         "accountNumber": "7632-183271",
