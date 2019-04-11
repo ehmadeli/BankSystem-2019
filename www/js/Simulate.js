@@ -2,7 +2,7 @@ class Simulate {
   constructor() {
     this.form = '.simulate-form';
     $(document).on('submit', this.form, e => this.onsubmit(e));
- 
+
   }
 
   updateDisplay() {
@@ -12,12 +12,12 @@ class Simulate {
     for (let account of App.user.accounts) {
       html += `<option value="${account.accountNumber}">${account.name} - ${account.accountNumber}</option>`;
     }
-    
-    
+
+
     // put the html in the DOM
     $(this.form).find('#accountNumber').html(html);
     $.datepicker.setDefaults($.datepicker.regional["sv"]);
-    $('#datepicker').datepicker();  
+    $('#datepicker').datepicker();
   }
 
   onsubmit(e) {
@@ -25,7 +25,7 @@ class Simulate {
     e.preventDefault();
     // Collect the form data
     this.collectFormdata();
-  
+
     let f = this.formdata;
     // convert the sum to a number - if not possible set it to 0
     f.sum = isNaN(f.sum / 1) ? 0 : f.sum / 1;
@@ -35,11 +35,12 @@ class Simulate {
     // Get the correct account
     let account = App.user.accounts.filter(account => account.accountNumber === f.accountNumber)[0];
     // Deposit or withdraw
-    if(account.checkBalance(f.sum)){
-      account[f.depositOrWithdraw](f.depositOrWithdraw + ': ' + f.label, f.sum);
+    if (account.checkBalance(f.sum)) {
+     account[f.depositOrWithdraw](f.depositOrWithdraw + ': ' + f.label, f.sum);
     }
-
-   
+//    account.withdraw(f.label, f.sum);
+//    account.deposit(f.label, f.sum);
+    
   }
 
   collectFormdata() {
@@ -49,18 +50,19 @@ class Simulate {
     });
     this.formdata = formdata;
   }
+
   checkForNegativeNumber() {
     let f = this.formdata;
     if (f.sum < 0) {
-      f.errors.sum = 'Du får inte skriva ett negativt nummer';
-      
+      f.errors.sum = 'Beloppet ska vara positivt nummer';
+
     }
-    else
-    {
+    else {
       App.user.save();
       location.hash = "#my-accounts";
     }
   }
+
   checkForAmount() {
     let f = this.formdata;
     let accountFrom = App.user.accounts.filter(account => account.accountNumber === f.fromAccountNumber)[0];
@@ -68,6 +70,7 @@ class Simulate {
       f.errors.sum = 'Du har inte tillräckligt med pengar';
     }
   }
+
   displayErrors() {
     let e = this.formdata.errors;
     $(this.form + ' .error').empty();
