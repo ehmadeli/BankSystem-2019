@@ -5,9 +5,14 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 7850,
+        "balance": 7784,
         "credit": false,
         "history": [
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-66",
+            "time": "2019-04-11 15:29"
+          },
           {
             "label": " Debitcard ",
             "amount": "-250",
@@ -214,8 +219,8 @@
             "time": "2019-03-14 14:16"
           }
         ],
-        "accountlimit": 10000,
         "accountNumber": "1215-004618",
+        "accountlimit": 10000,
         "⚙": "Account"
       },
       {
@@ -259,8 +264,8 @@
             "time": "2019-03-14 15:06"
           }
         ],
-        "accountlimit": 10000,
         "accountNumber": "4300-369343",
+        "accountlimit": 10000,
         "⚙": "Account"
       }
     ],

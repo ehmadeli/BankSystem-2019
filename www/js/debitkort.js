@@ -1,7 +1,7 @@
 class Debitkort {
 
   constructor() {
-    this.form = '.debitkort-form';
+    this.form = '.setting-form';
     $(document).on('submit', this.form, e => this.onsubmit(e));
   }
 
