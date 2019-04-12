@@ -39,7 +39,7 @@ class Betalning {
       account.withdraw(f.label + ' to: ' + f.accountNumberTo, f.sum);
       accountTo.deposit(f.label + ' from: ' + f.accountNumber, f.sum);
     } else 
-      alert("Du har inte tillräckligt med Saldo för att överföra till andra konton.");
+      alert("Du har inte tillräckligt med Saldo för att överföra till andra konton. Vänligen välj annan summa.");
     
 
     // Save the user data

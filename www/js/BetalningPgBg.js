@@ -31,9 +31,11 @@ class BetalningPgBg {
     // Get the correct account
     let account = App.user.accounts.filter(account => account.accountNumber === f.accountNumber)[0];
     // Deposit or withdraw
-    if(account.checkBalance(f.sum)){
+//    if(account.checkBalance(f.sum)){
+  if(account.balance>=f.sum){
      account.withdraw(f.label + ' to Pg/Bg ' + f.pgbg , f.sum);
-    }
+    }else
+    alert("Du har inte tillräckligt med saldo för att betala till Pg/Bg konton. Vänligen välj annan summa.");
 
     // Save the user data
     App.user.save();

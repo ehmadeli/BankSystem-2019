@@ -5,9 +5,24 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 16137,
+        "balance": 14787,
         "credit": false,
         "history": [
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-150",
+            "time": "4/13/2019, 12:10 AM"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-700",
+            "time": "4/12/2019, 11:37 PM"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-500",
+            "time": "4/12/2019, 11:35 PM"
+          },
           {
             "label": " to: 9611-921799",
             "amount": "-160",
@@ -65,9 +80,14 @@
       },
       {
         "name": "Sparkonto",
-        "balance": 160,
+        "balance": 60,
         "credit": false,
         "history": [
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-100",
+            "time": "4/13/2019, 12:06 AM"
+          },
           {
             "label": " from: 8508-888475",
             "amount": 160,
