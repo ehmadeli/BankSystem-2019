@@ -5,6 +5,7 @@
     "accounts": [
       {
         "name": "Lönekonto",
+<<<<<<< HEAD
         "balance": 7528,
         "credit": false,
         "history": [
@@ -37,21 +38,63 @@
             "label": " Debitcard ",
             "amount": "-250",
             "time": "4/12/2019, 10:53 PM"
+=======
+        "balance": 6974,
+        "credit": false,
+        "history": [
+          {
+            "label": "deposit: ",
+            "amount": 400,
+            "time": "2019-04-12 11:29"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-444",
+            "time": "2019-04-12 11:27"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-60",
+            "time": "2019-04-12 11:22"
+          },
+          {
+            "label": " to: 8105-342181",
+            "amount": "-50",
+            "time": "2019-04-12 11:22"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-122",
+            "time": "2019-04-12 10:44"
+          },
+          {
+            "label": " to: 4300-369343",
+            "amount": "-100",
+            "time": "2019-04-12 10:43"
+>>>>>>> master
           },
           {
             "label": " Debitcard ",
             "amount": "-250",
+<<<<<<< HEAD
             "time": "4/12/2019, 10:46 PM"
+=======
+            "time": "2019-04-11 16:08"
+>>>>>>> master
           },
           {
             "label": " Debitcard ",
             "amount": "-250",
+<<<<<<< HEAD
             "time": "4/12/2019, 10:44 PM"
           },
           {
             "label": " from: 4300-369343",
             "amount": 1000,
             "time": "4/12/2019, 10:12 PM"
+=======
+            "time": "2019-04-11 16:06"
+>>>>>>> master
           },
           {
             "label": " Debitcard ",
@@ -265,9 +308,23 @@
       },
       {
         "name": "sparkonto 2",
+<<<<<<< HEAD
         "balance": 273,
+=======
+        "balance": 1350,
+>>>>>>> master
         "credit": false,
         "history": [
+          {
+            "label": "deposit: ",
+            "amount": 100,
+            "time": "2019-04-12 11:29"
+          },
+          {
+            "label": " from: 1215-004618",
+            "amount": 100,
+            "time": "2019-04-12 10:43"
+          },
           {
             "label": " from: 1215-004618",
             "amount": 123,
@@ -316,6 +373,31 @@
         ],
         "accountNumber": "4300-369343",
         "accountlimit": 10000,
+<<<<<<< HEAD
+=======
+        "⚙": "Account"
+      },
+      {
+        "name": "emil",
+        "balance": 50,
+        "credit": false,
+        "history": [
+          {
+            "label": " from: 1215-004618",
+            "amount": 50,
+            "time": "2019-04-12 11:22"
+          }
+        ],
+        "accountNumber": "8105-342181",
+        "⚙": "Account"
+      },
+      {
+        "name": "thomas",
+        "balance": 0,
+        "credit": false,
+        "history": [],
+        "accountNumber": "2286-723299",
+>>>>>>> master
         "⚙": "Account"
       }
     ],
