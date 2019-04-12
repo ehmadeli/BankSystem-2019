@@ -32,12 +32,15 @@ class Betalning {
     // Deposit or withdraw from different accounts
 
     if (account === accountTo) {
-       alert("Transfer to same account is not allowed. plz select another account.");
-       return;
-      } else if(account.checkBalance(f.sum)){
+      alert("Överföring till samma konto är inte tillåtet. Vänligen välj ett annat konto.");
+      return;
+
+    } else if (account.balance >= f.sum) {
       account.withdraw(f.label + ' to: ' + f.accountNumberTo, f.sum);
       accountTo.deposit(f.label + ' from: ' + f.accountNumber, f.sum);
-    }
+    } else 
+      alert("Du har inte tillräckligt med Saldo för att överföra till andra konton.");
+    
 
     // Save the user data
     App.user.save();
