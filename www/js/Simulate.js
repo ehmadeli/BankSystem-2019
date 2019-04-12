@@ -34,8 +34,8 @@ class Simulate {
     this.displayErrors();
     // Get the correct account
     let account = App.user.accounts.filter(account => account.accountNumber === f.accountNumber)[0];
-    // Deposit or withdraw
-    if(account.checkBalance(f.sum)){
+    // Only run checkBalance if not a deposit
+    if(f.depositOrWithdraw === 'deposit' || account.checkBalance(f.sum)){
       account[f.depositOrWithdraw](f.depositOrWithdraw + ': ' + f.label, f.sum);
     }
 

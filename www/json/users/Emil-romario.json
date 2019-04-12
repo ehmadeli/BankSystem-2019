@@ -5,9 +5,29 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 7128,
+        "balance": 6974,
         "credit": false,
         "history": [
+          {
+            "label": "deposit: ",
+            "amount": 400,
+            "time": "2019-04-12 11:29"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-444",
+            "time": "2019-04-12 11:27"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-60",
+            "time": "2019-04-12 11:22"
+          },
+          {
+            "label": " to: 8105-342181",
+            "amount": "-50",
+            "time": "2019-04-12 11:22"
+          },
           {
             "label": " to Pg/Bg undefined",
             "amount": "-122",
@@ -240,9 +260,14 @@
       },
       {
         "name": "sparkonto 2",
-        "balance": 1250,
+        "balance": 1350,
         "credit": false,
         "history": [
+          {
+            "label": "deposit: ",
+            "amount": 100,
+            "time": "2019-04-12 11:29"
+          },
           {
             "label": " from: 1215-004618",
             "amount": 100,
@@ -286,6 +311,28 @@
         ],
         "accountNumber": "4300-369343",
         "accountlimit": 10000,
+        "⚙": "Account"
+      },
+      {
+        "name": "emil",
+        "balance": 50,
+        "credit": false,
+        "history": [
+          {
+            "label": " from: 1215-004618",
+            "amount": 50,
+            "time": "2019-04-12 11:22"
+          }
+        ],
+        "accountNumber": "8105-342181",
+        "⚙": "Account"
+      },
+      {
+        "name": "thomas",
+        "balance": 0,
+        "credit": false,
+        "history": [],
+        "accountNumber": "2286-723299",
         "⚙": "Account"
       }
     ],

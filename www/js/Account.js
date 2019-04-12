@@ -27,10 +27,13 @@ class Account {
 
   checkBalance(amount) {
 
-    if ((this.balance - amount >= 0) && !this.credit) {
+    // this check should only run on withdraw
+
+    if ((this.balance - amount >= 0)) {
       return true;
     }
     else if (this.credit) {
+      // do we have limit less credit?
       return true;
     }
     else {
