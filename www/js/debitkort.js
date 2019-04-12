@@ -28,15 +28,21 @@ class Debitkort {
     // Get the correct account
     let account = App.user.accounts.filter(account => account.accountNumber === f.accountNumber)[0];
     // Deposit or withdraw
-    if (account.checkBalance(f.sum)) {
+    
+    if (account.balance >= 250) {
+    
       account.withdraw(' Debitcard ', f.sum);
-    }
+      alert('Tack för att du beställde ett nytt betalkort. Kortet kommer att levereras till din adress inom 3 arbetsdagar.');
+    
+    } else
+      alert("Du har inte tillräckligt med balans för att beställa ett nytt Debitkort.");
+ 
 
     // Save the user data
     App.user.save();
     // Goto the my-accounts page
     location.hash = "#my-accounts";
-    alert('Tack för att du beställde ett nytt betalkort. Kortet kommer att levereras till din adress inom 3 arbetsdagar.');
+
   }
 
   collectFormdata() {
