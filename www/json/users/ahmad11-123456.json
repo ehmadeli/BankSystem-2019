@@ -5,29 +5,117 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 0,
+        "balance": 16137,
         "credit": false,
-        "history": [],
-        "accountlimit": 10000,
+        "history": [
+          {
+            "label": " to: 9611-921799",
+            "amount": "-160",
+            "time": "4/12/2019, 11:29 PM"
+          },
+          {
+            "label": " from: 9611-921799",
+            "amount": 99,
+            "time": "4/12/2019, 11:27 PM"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-99",
+            "time": "4/12/2019, 11:08 PM"
+          },
+          {
+            "label": " to: 9611-921799",
+            "amount": "-199",
+            "time": "4/12/2019, 11:08 PM"
+          },
+          {
+            "label": "withdraw: ",
+            "amount": "-66",
+            "time": "4/12/2019, 11:07 PM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 4567,
+            "time": "4/12/2019, 11:06 PM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 897,
+            "time": "4/12/2019, 11:06 PM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 9999,
+            "time": "4/12/2019, 11:05 PM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 999,
+            "time": "4/12/2019, 11:05 PM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 100,
+            "time": "4/12/2019, 11:05 PM"
+          }
+        ],
         "accountNumber": "8508-888475",
+        "accountlimit": 10000,
         "⚙": "Account"
       },
       {
         "name": "Sparkonto",
-        "balance": 0,
+        "balance": 160,
         "credit": false,
-        "history": [],
-        "accountlimit": 10000,
+        "history": [
+          {
+            "label": " from: 8508-888475",
+            "amount": 160,
+            "time": "4/12/2019, 11:29 PM"
+          },
+          {
+            "label": " to: 8508-888475",
+            "amount": "-99",
+            "time": "4/12/2019, 11:27 PM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/12/2019, 11:08 PM"
+          },
+          {
+            "label": " from: 8508-888475",
+            "amount": 199,
+            "time": "4/12/2019, 11:08 PM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 100,
+            "time": "4/12/2019, 11:07 PM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 50,
+            "time": "4/12/2019, 11:06 PM"
+          }
+        ],
         "accountNumber": "9611-921799",
+        "accountlimit": 10000,
         "⚙": "Account"
       },
       {
         "name": "SemesterKonto",
-        "balance": 0,
+        "balance": 9999,
         "credit": false,
-        "history": [],
-        "accountlimit": 10000,
+        "history": [
+          {
+            "label": "deposit: ",
+            "amount": 9999,
+            "time": "4/12/2019, 11:07 PM"
+          }
+        ],
         "accountNumber": "9551-543365",
+        "accountlimit": 10000,
         "⚙": "Account"
       }
     ],

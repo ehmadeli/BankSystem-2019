@@ -35,7 +35,7 @@ class Debitkort {
       alert('Tack för att du beställde ett nytt betalkort. Kortet kommer att levereras till din adress inom 3 arbetsdagar.');
     
     } else
-      alert("Du har inte tillräckligt med balans för att beställa ett nytt Debitkort.");
+      alert("Du har inte tillräckligt med saldo för att beställa ett nytt Debitkort.");
  
 
     // Save the user data
