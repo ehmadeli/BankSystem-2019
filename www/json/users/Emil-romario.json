@@ -5,9 +5,19 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 7350,
+        "balance": 7128,
         "credit": false,
         "history": [
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-122",
+            "time": "2019-04-12 10:44"
+          },
+          {
+            "label": " to: 4300-369343",
+            "amount": "-100",
+            "time": "2019-04-12 10:43"
+          },
           {
             "label": " Debitcard ",
             "amount": "-250",
@@ -230,9 +240,14 @@
       },
       {
         "name": "sparkonto 2",
-        "balance": 1150,
+        "balance": 1250,
         "credit": false,
         "history": [
+          {
+            "label": " from: 1215-004618",
+            "amount": 100,
+            "time": "2019-04-12 10:43"
+          },
           {
             "label": " from: 1215-004618",
             "amount": 500,
