@@ -5,6 +5,7 @@
     "accounts": [
       {
         "name": "Lönekonto",
+<<<<<<< HEAD
         "balance": 14787,
         "credit": false,
         "history": [
@@ -24,6 +25,12 @@
             "time": "4/12/2019, 11:35 PM"
           },
           {
+=======
+        "balance": 16137,
+        "credit": false,
+        "history": [
+          {
+>>>>>>> master
             "label": " to: 9611-921799",
             "amount": "-160",
             "time": "4/12/2019, 11:29 PM"
@@ -80,6 +87,7 @@
       },
       {
         "name": "Sparkonto",
+<<<<<<< HEAD
         "balance": 60,
         "credit": false,
         "history": [
@@ -89,6 +97,12 @@
             "time": "4/13/2019, 12:06 AM"
           },
           {
+=======
+        "balance": 160,
+        "credit": false,
+        "history": [
+          {
+>>>>>>> master
             "label": " from: 8508-888475",
             "amount": 160,
             "time": "4/12/2019, 11:29 PM"
