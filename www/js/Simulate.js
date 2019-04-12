@@ -2,7 +2,7 @@ class Simulate {
   constructor() {
     this.form = '.simulate-form';
     $(document).on('submit', this.form, e => this.onsubmit(e));
- 
+
   }
 
   updateDisplay() {
@@ -12,12 +12,12 @@ class Simulate {
     for (let account of App.user.accounts) {
       html += `<option value="${account.accountNumber}">${account.name} - ${account.accountNumber}</option>`;
     }
-    
-    
+
+
     // put the html in the DOM
     $(this.form).find('#accountNumber').html(html);
     $.datepicker.setDefaults($.datepicker.regional["sv"]);
-    $('#datepicker').datepicker();  
+    $('#datepicker').datepicker();
   }
 
   onsubmit(e) {
@@ -25,7 +25,7 @@ class Simulate {
     e.preventDefault();
     // Collect the form data
     this.collectFormdata();
-  
+
     let f = this.formdata;
     // convert the sum to a number - if not possible set it to 0
     f.sum = isNaN(f.sum / 1) ? 0 : f.sum / 1;
@@ -35,11 +35,14 @@ class Simulate {
     // Get the correct account
     let account = App.user.accounts.filter(account => account.accountNumber === f.accountNumber)[0];
     // Only run checkBalance if not a deposit
-    if(f.depositOrWithdraw === 'deposit' || account.checkBalance(f.sum)){
+    //    if(f.depositOrWithdraw === 'deposit' || account.checkBalance(f.sum)){
+    
+    if (f.depositOrWithdraw === 'deposit' || account.balance >= f.sum) {
       account[f.depositOrWithdraw](f.depositOrWithdraw + ': ' + f.label, f.sum);
-    }
+    } else
+      alert("Du har inte tillräckligt med saldo för att ta ut pengar. Vänligen välj annan summa.");
 
-   
+
   }
 
   collectFormdata() {
@@ -53,10 +56,9 @@ class Simulate {
     let f = this.formdata;
     if (f.sum < 0) {
       f.errors.sum = 'Du får inte skriva ett negativt nummer';
-      
+
     }
-    else
-    {
+    else {
       App.user.save();
       location.hash = "#my-accounts";
     }

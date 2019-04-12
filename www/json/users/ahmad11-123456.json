@@ -65,9 +65,14 @@
       },
       {
         "name": "Sparkonto",
-        "balance": 160,
+        "balance": 10,
         "credit": false,
         "history": [
+          {
+            "label": "withdraw: ",
+            "amount": "-150",
+            "time": "4/13/2019, 12:35 AM"
+          },
           {
             "label": " from: 8508-888475",
             "amount": 160,
