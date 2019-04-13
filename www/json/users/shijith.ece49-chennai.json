@@ -5,9 +5,34 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 3000,
+        "balance": 2300,
         "credit": false,
         "history": [
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/13/2019, 1:50 AM"
+          },
+          {
+            "label": " from: 978-495345",
+            "amount": 100,
+            "time": "4/13/2019, 1:49 AM"
+          },
+          {
+            "label": " from: 978-495345",
+            "amount": 700,
+            "time": "4/13/2019, 1:49 AM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/13/2019, 1:48 AM"
+          },
+          {
+            "label": " to: 978-495345",
+            "amount": "-1000",
+            "time": "4/13/2019, 1:48 AM"
+          },
           {
             "label": " to: 3413-846898",
             "amount": "-1000",
@@ -59,6 +84,30 @@
           }
         ],
         "accountNumber": "3413-846898",
+        "⚙": "Account"
+      },
+      {
+        "name": "emil",
+        "balance": 200,
+        "credit": false,
+        "history": [
+          {
+            "label": " to: 7201-704013",
+            "amount": "-100",
+            "time": "4/13/2019, 1:49 AM"
+          },
+          {
+            "label": " to: 7201-704013",
+            "amount": "-700",
+            "time": "4/13/2019, 1:49 AM"
+          },
+          {
+            "label": " from: 7201-704013",
+            "amount": 1000,
+            "time": "4/13/2019, 1:48 AM"
+          }
+        ],
+        "accountNumber": "978-495345",
         "⚙": "Account"
       }
     ],
