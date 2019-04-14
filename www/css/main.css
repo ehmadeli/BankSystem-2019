@@ -99,3 +99,5 @@ label.btn input[type=checkbox].filled-in:checked+label:after {
   color: orange;
   background-image: url(debitcard.JPG);
 }
+
+/* slide three debit card preview */

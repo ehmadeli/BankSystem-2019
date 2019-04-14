@@ -5,9 +5,24 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 2300,
+        "balance": 1550,
         "credit": false,
         "history": [
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/13/2019, 6:47 AM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/13/2019, 2:06 AM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/13/2019, 2:06 AM"
+          },
           {
             "label": " Debitcard ",
             "amount": "-250",
@@ -88,9 +103,14 @@
       },
       {
         "name": "emil",
-        "balance": 200,
+        "balance": 50200,
         "credit": false,
         "history": [
+          {
+            "label": "deposit: ",
+            "amount": 50000,
+            "time": "4/13/2019, 6:57 AM"
+          },
           {
             "label": " to: 7201-704013",
             "amount": "-100",
@@ -108,6 +128,14 @@
           }
         ],
         "accountNumber": "978-495345",
+        "⚙": "Account"
+      },
+      {
+        "name": "hi",
+        "balance": 0,
+        "credit": false,
+        "history": [],
+        "accountNumber": "6275-196879",
         "⚙": "Account"
       }
     ],
