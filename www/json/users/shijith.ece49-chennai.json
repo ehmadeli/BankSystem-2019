@@ -5,9 +5,49 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 3000,
+        "balance": 1550,
         "credit": false,
         "history": [
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/13/2019, 6:47 AM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/13/2019, 2:06 AM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/13/2019, 2:06 AM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/13/2019, 1:50 AM"
+          },
+          {
+            "label": " from: 978-495345",
+            "amount": 100,
+            "time": "4/13/2019, 1:49 AM"
+          },
+          {
+            "label": " from: 978-495345",
+            "amount": 700,
+            "time": "4/13/2019, 1:49 AM"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/13/2019, 1:48 AM"
+          },
+          {
+            "label": " to: 978-495345",
+            "amount": "-1000",
+            "time": "4/13/2019, 1:48 AM"
+          },
           {
             "label": " to: 3413-846898",
             "amount": "-1000",
@@ -59,6 +99,43 @@
           }
         ],
         "accountNumber": "3413-846898",
+        "⚙": "Account"
+      },
+      {
+        "name": "emil",
+        "balance": 50200,
+        "credit": false,
+        "history": [
+          {
+            "label": "deposit: ",
+            "amount": 50000,
+            "time": "4/13/2019, 6:57 AM"
+          },
+          {
+            "label": " to: 7201-704013",
+            "amount": "-100",
+            "time": "4/13/2019, 1:49 AM"
+          },
+          {
+            "label": " to: 7201-704013",
+            "amount": "-700",
+            "time": "4/13/2019, 1:49 AM"
+          },
+          {
+            "label": " from: 7201-704013",
+            "amount": 1000,
+            "time": "4/13/2019, 1:48 AM"
+          }
+        ],
+        "accountNumber": "978-495345",
+        "⚙": "Account"
+      },
+      {
+        "name": "hi",
+        "balance": 0,
+        "credit": false,
+        "history": [],
+        "accountNumber": "6275-196879",
         "⚙": "Account"
       }
     ],
