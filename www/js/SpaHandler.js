@@ -64,15 +64,18 @@ class SpaHandler {
     if (hash === 'betalning-pgbg') {
       App.betalningPgBg.updateDisplay();
     }
+   
     if (hash === 'Debit-kort') {
       App.debitkort.updateDisplay();
     }
+       
     if (hash === 'history') {
       App.history.updateDisplay();
     }
-    if (hash === 'Debit-kort') {
+    if (hash === 'setting') {
       App.setting.updateDisplay();
     }
+    
   }
 
 }

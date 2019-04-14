@@ -10,12 +10,16 @@ class MyAccounts {
 
  showHistory(){
    let accountNumber = $('#accountNumber').val();
+   let accountlimit = $('#accountlimit').val();
+
    // For some reason we need to wait
    // before navigating to page with location.hash
    // (strange...)
    setTimeout(() => {
      location.hash = 'history?' + accountNumber;
+     location.hash = 'history?' + accountlimit;
    }, 1);
+   
  }
 
  updateDisplay() {
