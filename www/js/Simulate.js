@@ -17,7 +17,8 @@ class Simulate {
     // put the html in the DOM
     $(this.form).find('#accountNumber').html(html);
     $.datepicker.setDefaults($.datepicker.regional["sv"]);
-    $('#datepicker').datepicker();  
+    $('#datepicker').datepicker();
+   
   }
 
   onsubmit(e) {

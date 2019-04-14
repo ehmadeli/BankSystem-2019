@@ -5,18 +5,92 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 0,
+        "balance": 10000000016876677000,
         "credit": false,
-        "history": [],
+        "history": [
+          {
+            "label": "deposit: LinkL",
+            "amount": 11111111111,
+            "time": "2019-04-14 08:49"
+          },
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "2019-04-14 08:48"
+          },
+          {
+            "label": "test to: 8003-113019",
+            "amount": "-2000000",
+            "time": "2019-04-14 08:46"
+          },
+          {
+            "label": "Till skatteverket to Pg/Bg undefined",
+            "amount": "-0",
+            "time": "2019-04-14 08:45"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 5767567467,
+            "time": "2019-04-14 08:09"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-0",
+            "time": "2019-04-14 08:09"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 0,
+            "time": "2019-04-13 15:57"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 0,
+            "time": "2019-04-13 15:51"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-0",
+            "time": "2019-04-13 15:39"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-0",
+            "time": "2019-04-13 15:20"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-0",
+            "time": "2019-04-13 15:20"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-0",
+            "time": "2019-04-13 15:10"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-0",
+            "time": "2019-04-13 09:41"
+          }
+        ],
+        "accountlimit": 0,
         "accountNumber": "9651-915573",
         "⚙": "Account"
       },
       {
-        "name": "1342567890",
-        "balance": 0,
+        "name": "test",
+        "balance": 2000000,
         "credit": false,
-        "history": [],
-        "accountNumber": "1611-229236",
+        "history": [
+          {
+            "label": "test from: 9651-915573",
+            "amount": 2000000,
+            "time": "2019-04-14 08:46"
+          }
+        ],
+        "accountlimit": 0,
+        "accountNumber": "8003-113019",
         "⚙": "Account"
       }
     ],

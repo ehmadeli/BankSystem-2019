@@ -5,8 +5,9 @@ class Account {
     this.balance = 0;
     this.credit = false;
     this.history = [];
-//    this.accountlimit = 1000000;
+  this.accountlimit = 0;
     this.accountNumber = this.createAccountNumber()
+    
   }
 
   createAccountNumber() {
@@ -23,7 +24,15 @@ class Account {
     this.balance += -amounts;
     this.history.unshift({ label: label, amount: "-" + amounts, time: this.formatTime() });
   }
-
+  
+  change(amount){
+    console.log("amount:"+amount);
+    console.log("old:"+this.accountlimit);
+  this.accountlimit += amount;
+   
+   
+      
+  }
 
   checkBalance(amount) {
 

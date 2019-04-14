@@ -1,0 +1,18 @@
+{
+  "data": {
+    "username": "preti1",
+    "myFile": "users/preti1-123456",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 0,
+        "credit": false,
+        "history": [],
+        "accountlimit": 0,
+        "accountNumber": "940-088793",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
