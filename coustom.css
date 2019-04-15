@@ -1,0 +1,62 @@
+#container{
+    text-align: center;
+    font-size:medium;
+    background-color:lightblue;
+    
+}
+  
+  h2{
+    text-align:center;
+  }
+
+
+
+
+body {
+  background-color:lightblue;
+}
+ 
+#example2 {
+  background-color: black;
+  
+  height: 2px;
+  width: 5%;
+  top: 20%;
+  left: 4%;
+}
+#example3 {
+  background-color: black;
+  
+  height: 2px;
+  width: 5%;
+  top: 48%;
+  left: 60%;
+}
+#example1 {
+  background-color: black;
+  
+  height: 2px;
+  width: 5%;
+  top: 48%;
+  left: 60%;
+
+}
+#main {
+  position: absolute;
+  width: 1000px;
+  height: 200px;
+  z-index: 15;
+  top: 20%;
+  left: 30%;
+  margin: -50px 0 0 -150px;
+}
+
+#Betalning {
+  position: absolute;
+  width: 1200px;
+  height: 50px;
+  z-index: 15;
+  top: 40%;
+  left: -10%;
+  margin: -120px 0 0 -150px;
+}
