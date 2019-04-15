@@ -12,12 +12,9 @@ class App {
     App.betalning = new Betalning();
     App.betalningPgBg = new BetalningPgBg();
     App.login = new Login();
-    App.setting=new Setting();
     App.history = new History();
     App.debitkort = new Debitkort();
     App.start = new Start();
-    App.Account = new Account();
-    
 
     // Instances that we don't need to reach/communicate with
     new RegisterUser();

@@ -5,9 +5,39 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 47084,
+        "balance": 45789,
         "credit": false,
         "history": [
+          {
+            "label": " Debitcard ",
+            "amount": "-250",
+            "time": "4/15/2019, 9:26 AM"
+          },
+          {
+            "label": " to: 5758-145647",
+            "amount": "-25",
+            "time": "4/15/2019, 9:25 AM"
+          },
+          {
+            "label": "withdraw: ",
+            "amount": "-25",
+            "time": "4/15/2019, 9:25 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": 25,
+            "time": "4/15/2019, 9:25 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": -1010,
+            "time": "4/15/2019, 9:24 AM"
+          },
+          {
+            "label": "deposit: ",
+            "amount": -10,
+            "time": "4/14/2019, 8:08 PM"
+          },
           {
             "label": "deposit: ",
             "amount": 599,
@@ -389,7 +419,6 @@
             "time": "4/8/2019, 1:03 AM"
           },
           {
-
             "label": " Debitcard ",
             "amount": -250,
             "time": "4/7/2019, 3:34 PM"
@@ -426,9 +455,14 @@
       },
       {
         "name": "Sparkonto",
-        "balance": 908,
+        "balance": 933,
         "credit": false,
         "history": [
+          {
+            "label": " from: 6140-211182",
+            "amount": 25,
+            "time": "4/15/2019, 9:25 AM"
+          },
           {
             "label": " to: 6140-211182",
             "amount": "-400",

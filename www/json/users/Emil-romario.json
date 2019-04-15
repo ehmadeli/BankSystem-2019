@@ -5,13 +5,38 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 7784,
+        "balance": 6974,
         "credit": false,
         "history": [
           {
+            "label": "deposit: ",
+            "amount": 400,
+            "time": "2019-04-12 11:29"
+          },
+          {
             "label": " to Pg/Bg undefined",
-            "amount": "-66",
-            "time": "2019-04-11 15:29"
+            "amount": "-444",
+            "time": "2019-04-12 11:27"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-60",
+            "time": "2019-04-12 11:22"
+          },
+          {
+            "label": " to: 8105-342181",
+            "amount": "-50",
+            "time": "2019-04-12 11:22"
+          },
+          {
+            "label": " to Pg/Bg undefined",
+            "amount": "-122",
+            "time": "2019-04-12 10:44"
+          },
+          {
+            "label": " to: 4300-369343",
+            "amount": "-100",
+            "time": "2019-04-12 10:43"
           },
           {
             "label": " Debitcard ",
